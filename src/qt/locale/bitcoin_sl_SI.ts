@@ -235,7 +235,7 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     <message>
         <location line="+1"/>
         <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR COINS&lt;/b&gt;!</source>
-        <translation>Opozorilo: Če šifrirate svojo denarnico in izgubite svoje geslo, boste &lt;b&gt; IZGUBILI VSE SVOJE KOVANCE&lt;/b&gt;!</translation>
+        <translation>Opozorilo: Če šifrirate svojo denarnico in izgubite svoje geslo, ASNe &lt;b&gt; IZGUBILI VSE SVOJE KOVANCE&lt;/b&gt;!</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -245,7 +245,7 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     <message>
         <location line="+15"/>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
-        <translation>POMEMBNO: Vsaka predhodna varnostna kopija datoteke denarnice mora biti nadomeščena z novo datoteko šifrirane denarnice. Zaradi varnostnih razlogov bodo namreč prejšnje varnostne kopije datoteke nešifrirane denarnice postale neuporabne takoj ko boste pričeli uporabljati novo, šifrirano denarnico.</translation>
+        <translation>POMEMBNO: Vsaka predhodna varnostna kopija datoteke denarnice mora biti nadomeščena z novo datoteko šifrirane denarnice. Zaradi varnostnih razlogov bodo namreč prejšnje varnostne kopije datoteke nešifrirane denarnice postale neuporabne takoj ko ASNe pričeli uporabljati novo, šifrirano denarnico.</translation>
     </message>
     <message>
         <location line="+103"/>
@@ -2022,7 +2022,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="-64"/>
         <source>Enter the signing address, message (ensure you copy line breaks, spaces, tabs, etc. exactly) and signature below to verify the message. Be careful not to read more into the signature than what is in the signed message itself, to avoid being tricked by a man-in-the-middle attack.</source>
-        <translation>Vnesite naslov za podpis, sporočilo (poskribte da točno skopirate presledke med vrsticami, črkami, itd.) in podpis spodaj, da potrdite sporočilo Da se ognete napadom posrednika, bodite pozorni, da ne boste v podpisu ugledali več, kot je v podpisanemu sporočilu samem.</translation>
+        <translation>Vnesite naslov za podpis, sporočilo (poskribte da točno skopirate presledke med vrsticami, črkami, itd.) in podpis spodaj, da potrdite sporočilo Da se ognete napadom posrednika, bodite pozorni, da ne ASNe v podpisu ugledali več, kot je v podpisanemu sporočilu samem.</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -2804,7 +2804,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="+11"/>
         <source>Warning: -paytxfee is set very high! This is the transaction fee you will pay if you send a transaction.</source>
-        <translation>Opozorilo: -paytxfee je nastavljen zelo visoko! To je transakcijska provizija, ki jo boste plačali ob pošiljanju transakcije.</translation>
+        <translation>Opozorilo: -paytxfee je nastavljen zelo visoko! To je transakcijska provizija, ki jo ASNe plačali ob pošiljanju transakcije.</translation>
     </message>
     <message>
         <location line="+61"/>
