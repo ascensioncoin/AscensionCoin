@@ -81,7 +81,7 @@ win32:QMAKE_LFLAGS *= -Wl,--dynamicbase -Wl,--nxcompat,--large-address-aware -st
 win32:QMAKE_LFLAGS += -static-libgcc -static-libstdc++
 lessThan(QT_MAJOR_VERSION, 5): win32: QMAKE_LFLAGS *= -static
 
-USE_QRCODE=1
+USE_QRCODE=0
 # use: qmake "USE_QRCODE=1"
 # libqrencode (http://fukuchi.org/works/qrencode/index.en.html) must be installed for support
 contains(USE_QRCODE, 1) {
@@ -451,6 +451,9 @@ SOURCES +=     src/tor/address.c \
     src/tor/tortls.c \
     src/tor/transports.c \
     src/tor/util_codedigest.c
+
+SOURCES +=  src/lz4/lz4.c \
+    src/xxhash/xxhash.c
 
 RESOURCES += \
     src/qt/bitcoin.qrc
