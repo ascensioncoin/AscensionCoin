@@ -378,7 +378,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 
             pszGet = "GET / HTTP/1.1\r\n"
                      "Host: checkip.dyndns.org\r\n"
-                     "User-Agent: BoostCoin\r\n"
+                     "User-Agent: ascension\r\n"
                      "Connection: close\r\n"
                      "\r\n";
 
@@ -397,7 +397,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 
             pszGet = "GET /simple/ HTTP/1.1\r\n"
                      "Host: www.showmyip.com\r\n"
-                     "User-Agent: BoostCoin\r\n"
+                     "User-Agent: ascension\r\n"
                      "Connection: close\r\n"
                      "\r\n";
 
@@ -414,7 +414,7 @@ bool GetMyExternalIP(CNetAddr& ipRet)
 void ThreadGetMyExternalIP(void* parg)
 {
     // Make this thread recognisable as the external IP detection thread
-    RenameThread("boostcoin-ext-ip");
+    RenameThread("ascension-ext-ip");
 
     CNetAddr addrLocalHost;
     if (GetMyExternalIP(addrLocalHost))
@@ -638,7 +638,7 @@ void CNode::copyStats(CNodeStats &stats)
 void ThreadTorNet(void* parg)
 {
     // Make this thread recognisable as the connection opening thread
-    RenameThread("boostcoin-tornet");
+    RenameThread("ascension-tornet");
 
     try
     {
@@ -673,7 +673,7 @@ void ThreadTorNet2(void* parg) {
 void ThreadSocketHandler(void* parg)
 {
     // Make this thread recognisable as the networking thread
-    RenameThread("boostcoin-net");
+    RenameThread("ascension-net");
 
     try
     {
@@ -1027,7 +1027,7 @@ void ThreadSocketHandler2(void* parg)
 void ThreadMapPort(void* parg)
 {
     // Make this thread recognisable as the UPnP thread
-    RenameThread("boostcoin-UPnP");
+    RenameThread("ascension-UPnP");
 
     try
     {
@@ -1087,7 +1087,7 @@ void ThreadMapPort2(void* parg)
                     printf("UPnP: GetExternalIPAddress failed.\n");
             }
         }
-        string strDesc = "BoostCoin " + FormatFullVersion();
+        string strDesc = "ascension " + FormatFullVersion();
 #ifndef UPNPDISCOVER_SUCCESS
         /* miniupnpc 1.5 */
         r = UPNP_AddPortMapping(urls.controlURL, data.first.servicetype,
@@ -1177,11 +1177,11 @@ void MapPort()
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-    {"seed1.boostcoin.eu", "seed1.boostcoin.eu"},
-    {"seed2.boostcoin.eu", "seed2.boostcoin.eu"},
-    {"seed3.boostcoin.eu", "seed3.boostcoin.eu"},
-    {"seed4.boostcoin.eu", "seed4.boostcoin.eu"},
-    {"seed5.boostcoin.eu", "seed5.boostcoin.eu"},	
+    {"seed1.ascension.eu", "seed1.ascension.eu"},
+    {"seed2.ascension.eu", "seed2.ascension.eu"},
+    {"seed3.ascension.eu", "seed3.ascension.eu"},
+    {"seed4.ascension.eu", "seed4.ascension.eu"},
+    {"seed5.ascension.eu", "seed5.ascension.eu"},	
 };
 // hidden service seeds
 static const char *strMainNetOnionSeed[][1] = {
@@ -1195,7 +1195,7 @@ static const char *strMainNetOnionSeed[][1] = {
 void ThreadDNSAddressSeed(void* parg)
 {
     // Make this thread recognisable as the DNS seeding thread
-    RenameThread("boostcoin-dnsseed");
+    RenameThread("ascension-dnsseed");
 
     try
     {
@@ -1250,7 +1250,7 @@ void ThreadDNSAddressSeed2(void* parg)
 void ThreadOnionSeed(void* parg)
 {
     // Make this thread recognisable as the DNS seeding thread
-    RenameThread("boostcoin-dnsseed");
+    RenameThread("ascension-dnsseed");
 
     try
     {
@@ -1342,7 +1342,7 @@ void ThreadDumpAddress2(void* parg)
 void ThreadDumpAddress(void* parg)
 {
     // Make this thread recognisable as the address dumping thread
-    RenameThread("boostcoin-adrdump");
+    RenameThread("ascension-adrdump");
 
     try
     {
@@ -1357,7 +1357,7 @@ void ThreadDumpAddress(void* parg)
 void ThreadOpenConnections(void* parg)
 {
     // Make this thread recognisable as the connection opening thread
-    RenameThread("boostcoin-opencon");
+    RenameThread("ascension-opencon");
 
     try
     {
@@ -1538,7 +1538,7 @@ void ThreadOpenConnections2(void* parg)
 void ThreadOpenAddedConnections(void* parg)
 {
     // Make this thread recognisable as the connection opening thread
-    RenameThread("boostcoin-opencon");
+    RenameThread("ascension-opencon");
 
     try
     {
@@ -1669,7 +1669,7 @@ bool OpenNetworkConnection(const CAddress& addrConnect, CSemaphoreGrant *grantOu
 void ThreadMessageHandler(void* parg)
 {
     // Make this thread recognisable as the message handling thread
-    RenameThread("boostcoin-msghand");
+    RenameThread("ascension-msghand");
 
     try
     {
@@ -1837,7 +1837,7 @@ bool BindListenPort(const CService &addrBind, string& strError)
     {
         int nErr = WSAGetLastError();
         if (nErr == WSAEADDRINUSE)
-            strError = strprintf(_("Unable to bind to %s on this computer. BoostCoin is probably already running."), addrBind.ToString().c_str());
+            strError = strprintf(_("Unable to bind to %s on this computer. ascension is probably already running."), addrBind.ToString().c_str());
         else
             strError = strprintf(_("Unable to bind to %s on this computer (bind returned error %d, %s)"), addrBind.ToString().c_str(), nErr, strerror(nErr));
         printf("%s\n", strError.c_str());
@@ -1926,7 +1926,7 @@ void StartTor(void* parg)
 void StartNode(void* parg)
 {
     // Make this thread recognisable as the startup thread
-    RenameThread("boostcoin-start");
+    RenameThread("ascension-start");
 
     if (semOutbound == NULL) {
         // initialize semaphore

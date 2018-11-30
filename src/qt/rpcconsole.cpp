@@ -312,7 +312,7 @@ void RPCConsole::clear()
                 "b { color: #AEC6FF; } "
                 );
 
-    message(CMD_REPLY, (tr("Welcome to the BoostCoin RPC console.") + "<br>" +
+    message(CMD_REPLY, (tr("Welcome to the ascension RPC console.") + "<br>" +
                         tr("Use up and down arrows to navigate history, and <b>Ctrl-L</b> to clear screen.") + "<br>" +
                         tr("Type <b>help</b> for an overview of available commands.")), true);
 }

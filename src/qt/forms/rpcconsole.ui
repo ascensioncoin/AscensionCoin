@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>BoostCoin - Debug window</string>
+   <string>ascension - Debug window</string>
   </property>
   <property name="styleSheet">
    <string notr="true">QProgressBar {
@@ -436,7 +436,7 @@ QTabWidget {
           </font>
          </property>
          <property name="text">
-          <string>BoostCoin Core</string>
+          <string>ascension Core</string>
          </property>
         </widget>
        </item>
@@ -619,7 +619,7 @@ QTabWidget {
        <item row="15" column="0">
         <widget class="QPushButton" name="openDebugLogfileButton">
          <property name="toolTip">
-          <string>Open the BoostCoin debug log file from the current data directory. This can take a few seconds for large log files.</string>
+          <string>Open the ascension debug log file from the current data directory. This can take a few seconds for large log files.</string>
          </property>
          <property name="text">
           <string>&amp;Open</string>
@@ -645,7 +645,7 @@ QTabWidget {
        <item row="17" column="0">
         <widget class="QPushButton" name="showCLOptionsButton">
          <property name="toolTip">
-          <string>Show the BoostCoin-Qt help message to get a list with possible BoostCoin command-line options.</string>
+          <string>Show the ascension-Qt help message to get a list with possible ascension command-line options.</string>
          </property>
          <property name="text">
           <string>&amp;Show</string>

@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BoostCoin</source>
-        <translation>Om BoostCoin</translation>
+        <source>About ascension</source>
+        <translation>Om ascension</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BoostCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BoostCoin&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;ascension&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;ascension&lt;/b&gt; version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BoostCoin developers</source>
+Copyright © 2014 The ascension developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BoostCoin developers</translation>
+Copyright © 2014 The ascension developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BoostCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dette er dine BoostCoin adresser til at modtage betalinger. Du ønsker måske at give en anden en til af hver afsender, så du kan holde styr på hvem der betaler dig.</translation>
+        <source>These are your ascension addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dette er dine ascension adresser til at modtage betalinger. Du ønsker måske at give en anden en til af hver afsender, så du kan holde styr på hvem der betaler dig.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BoostCoin address</source>
-        <translation>Signerer en meddelelse for at bevise du ejer en BoostCoin adresse</translation>
+        <source>Sign a message to prove you own a ascension address</source>
+        <translation>Signerer en meddelelse for at bevise du ejer en ascension adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BoostCoin address</source>
-        <translation>Bekræft en meddelelse for at sikre, den blev underskrevet med en specificeret BoostCoin adresse</translation>
+        <source>Verify a message to ensure it was signed with a specified ascension address</source>
+        <translation>Bekræft en meddelelse for at sikre, den blev underskrevet med en specificeret ascension adresse</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="-58"/>
-        <source>BoostCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>BoostCoin lukker nu for at afslutte krypteringen. Husk at en krypteret  tegnebog ikke fuldt ud beskytter dine mønter mod at blive stjålet af malware som har inficeret din computer.</translation>
+        <source>ascension will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>ascension lukker nu for at afslutte krypteringen. Husk at en krypteret  tegnebog ikke fuldt ud beskytter dine mønter mod at blive stjålet af malware som har inficeret din computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about BoostCoin</source>
-        <translation>Vis oplysninger om BoostCoin</translation>
+        <source>Show information about ascension</source>
+        <translation>Vis oplysninger om ascension</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a BoostCoin address</source>
-        <translation>Send mønter til en BoostCoin adresse</translation>
+        <source>Send coins to a ascension address</source>
+        <translation>Send mønter til en ascension adresse</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for BoostCoin</source>
-        <translation>Ændre indstillingsmuligheder for BoostCoin</translation>
+        <source>Modify configuration options for ascension</source>
+        <translation>Ændre indstillingsmuligheder for ascension</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="-202"/>
-        <source>BoostCoin</source>
-        <translation>BoostCoin</translation>
+        <source>ascension</source>
+        <translation>ascension</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About BoostCoin</source>
-        <translation>&amp;Om BoostCoin</translation>
+        <source>&amp;About ascension</source>
+        <translation>&amp;Om ascension</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,13 +539,13 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>BoostCoin client</source>
-        <translation>BoostCoin Klient</translation>
+        <source>ascension client</source>
+        <translation>ascension Klient</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to BoostCoin network</source>
-        <translation><numerusform>%n aktiv forbindelse til BoostCoin netværk</numerusform><numerusform>%n aktive forbindelser til BoostCoin netværk</numerusform></translation>
+        <source>%n active connection(s) to ascension network</source>
+        <translation><numerusform>%n aktiv forbindelse til ascension netværk</numerusform><numerusform>%n aktive forbindelser til ascension netværk</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -584,13 +584,13 @@ Produktet indeholder software, som er udviklet af OpenSSL Project til brug i Ope
     </message>
     <message>
         <location line="-312"/>
-        <source>About BoostCoin card</source>
-        <translation>Om BoostCoin kort</translation>
+        <source>About ascension card</source>
+        <translation>Om ascension kort</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about BoostCoin card</source>
-        <translation>Vis oplysninger om BoostCoin kort</translation>
+        <source>Show information about ascension card</source>
+        <translation>Vis oplysninger om ascension kort</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -669,8 +669,8 @@ Adresse: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BoostCoin address or malformed URI parameters.</source>
-        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig BoostCoin adresse eller misdannede URI parametre.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid ascension address or malformed URI parameters.</source>
+        <translation>URI kan ikke tolkes! Dette kan skyldes en ugyldig ascension adresse eller misdannede URI parametre.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -729,7 +729,7 @@ Adresse: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BoostCoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. ascension can no longer continue safely and will quit.</source>
         <translation>Der opstod en fejl under forsøg på at gemme dataene i tegnebogen til den nye placering.</translation>
     </message>
 </context>
@@ -1063,8 +1063,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BoostCoin address.</source>
-        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig BoostCoin adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid ascension address.</source>
+        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig ascension adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1082,8 +1082,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>BoostCoin-Qt</source>
-        <translation>BoostCoin-Qt</translation>
+        <source>ascension-Qt</source>
+        <translation>ascension-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1155,13 +1155,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BoostCoin after logging in to the system.</source>
-        <translation>Automatisk start BoostCoin efter at have logget ind på systemet.</translation>
+        <source>Automatically start ascension after logging in to the system.</source>
+        <translation>Automatisk start ascension efter at have logget ind på systemet.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BoostCoin on system login</source>
-        <translation>&amp;Start BoostCoin ved systems login</translation>
+        <source>&amp;Start ascension on system login</source>
+        <translation>&amp;Start ascension ved systems login</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1180,8 +1180,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BoostCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisk åbne BoostCoin klient-port på routeren. Dette virker kun, når din router understøtter UPnP og er det er aktiveret.</translation>
+        <source>Automatically open the ascension client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisk åbne ascension klient-port på routeren. Dette virker kun, når din router understøtter UPnP og er det er aktiveret.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1190,8 +1190,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BoostCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Opret forbindelse til BoostCoin netværk via en SOCKS proxy (fx ved tilslutning gennem Tor).</translation>
+        <source>Connect to the ascension network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Opret forbindelse til ascension netværk via en SOCKS proxy (fx ved tilslutning gennem Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1265,8 +1265,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BoostCoin.</source>
-        <translation>Sproget i brugergrænsefladen kan indstilles her. Denne indstilling vil træde i kraft efter genstart af BoostCoin tegnebog.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ascension.</source>
+        <translation>Sproget i brugergrænsefladen kan indstilles her. Denne indstilling vil træde i kraft efter genstart af ascension tegnebog.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1280,8 +1280,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BoostCoin addresses in the transaction list or not.</source>
-        <translation>Få vist BoostCoin adresser på listen over transaktioner eller ej.</translation>
+        <source>Whether to show ascension addresses in the transaction list or not.</source>
+        <translation>Få vist ascension adresser på listen over transaktioner eller ej.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1327,8 +1327,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BoostCoin.</source>
-        <translation>Denne indstilling vil træde i kraft efter genstart af BoostCoin.</translation>
+        <source>This setting will take effect after restarting ascension.</source>
+        <translation>Denne indstilling vil træde i kraft efter genstart af ascension.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1346,8 +1346,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BoostCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>De viste oplysninger kan være forældet. Din tegnebog synkroniserer automatisk med BoostCoin netværket efter en forbindelse er etableret, men denne proces er ikke afsluttet endnu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ascension network after a connection is established, but this process has not completed yet.</source>
+        <translation>De viste oplysninger kan være forældet. Din tegnebog synkroniserer automatisk med ascension netværket efter en forbindelse er etableret, men denne proces er ikke afsluttet endnu.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1562,8 +1562,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BoostCoin-Qt help message to get a list with possible BoostCoin command-line options.</source>
-        <translation>Vis BoostCoin-Qt hjælpe besked for at få en liste med mulige BoostCoin kommandolinjeparametre.</translation>
+        <source>Show the ascension-Qt help message to get a list with possible ascension command-line options.</source>
+        <translation>Vis ascension-Qt hjælpe besked for at få en liste med mulige ascension kommandolinjeparametre.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1582,13 +1582,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>BoostCoin - Debug window</source>
-        <translation>BoostCoin - Debug vindue</translation>
+        <source>ascension - Debug window</source>
+        <translation>ascension - Debug vindue</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BoostCoin Core</source>
-        <translation>BoostCoin Kerne</translation>
+        <source>ascension Core</source>
+        <translation>ascension Kerne</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1597,8 +1597,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BoostCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn BoostCoin debug logfilen fra den nuværende data mappe. Dette kan tage et par sekunder for store logfiler.</translation>
+        <source>Open the ascension debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn ascension debug logfilen fra den nuværende data mappe. Dette kan tage et par sekunder for store logfiler.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1607,8 +1607,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BoostCoin RPC console.</source>
-        <translation>Velkommen til BoostCoin RPC-konsol.</translation>
+        <source>Welcome to the ascension RPC console.</source>
+        <translation>Velkommen til ascension RPC-konsol.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1681,8 +1681,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BOST</source>
-        <translation>123.456 BOST {0.00 ?}</translation>
+        <source>0.00 ASN</source>
+        <translation>123.456 ASN {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1751,8 +1751,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BOST</source>
-        <translation>123.456 BOST</translation>
+        <source>123.456 ASN</source>
+        <translation>123.456 ASN</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1766,8 +1766,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Indtast en BoostCoin-adresse (f.eks BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Indtast en ascension-adresse (f.eks ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1866,8 +1866,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid BoostCoin address</source>
-        <translation>ADVARSEL: Ugyldig BoostCoin adresse</translation>
+        <source>WARNING: Invalid ascension address</source>
+        <translation>ADVARSEL: Ugyldig ascension adresse</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1910,8 +1910,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Adressen til at sende betalingen til (f.eks BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>The address to send the payment to  (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Adressen til at sende betalingen til (f.eks ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1940,8 +1940,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Indtast en BoostCoin-adresse (f.eks BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Indtast en ascension-adresse (f.eks ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
 </context>
 <context>
@@ -1964,8 +1964,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Adresse til at underskrive meddelelsen med (f.eks BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>The address to sign the message with (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Adresse til at underskrive meddelelsen med (f.eks ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2001,8 +2001,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BoostCoin address</source>
-        <translation>Underskriv brevet for at bevise du ejer denne BoostCoin adresse</translation>
+        <source>Sign the message to prove you own this ascension address</source>
+        <translation>Underskriv brevet for at bevise du ejer denne ascension adresse</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2028,13 +2028,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Adressen meddelelse blev underskrevet med (f.eks BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>The address the message was signed with (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Adressen meddelelse blev underskrevet med (f.eks ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BoostCoin address</source>
-        <translation>Kontroller meddelelsen for at sikre, at den blev indgået med den angivne BoostCoin adresse</translation>
+        <source>Verify the message to ensure it was signed with the specified ascension address</source>
+        <translation>Kontroller meddelelsen for at sikre, at den blev indgået med den angivne ascension adresse</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2044,8 +2044,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Indtast en BoostCoin-adresse (f.eks BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Indtast en ascension-adresse (f.eks ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2054,8 +2054,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BoostCoin signature</source>
-        <translation>Indtast BoostCoin underskrift</translation>
+        <source>Enter ascension signature</source>
+        <translation>Indtast ascension underskrift</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2625,8 +2625,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>BoostCoin version</source>
-        <translation>BoostCoin version</translation>
+        <source>ascension version</source>
+        <translation>ascension version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2635,8 +2635,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or boostcoind</source>
-        <translation>Send kommando til-server eller boostcoind</translation>
+        <source>Send command to -server or ascensiond</source>
+        <translation>Send kommando til-server eller ascensiond</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2655,13 +2655,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: boostcoin.conf)</source>
-        <translation>Angiv konfigurationsfil (default: boostcoin.conf)</translation>
+        <source>Specify configuration file (default: ascension.conf)</source>
+        <translation>Angiv konfigurationsfil (default: ascension.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: boostcoind.pid)</source>
-        <translation>Angiv pid fil (standard: boostcoind.pid)</translation>
+        <source>Specify pid file (default: ascensiond.pid)</source>
+        <translation>Angiv pid fil (standard: ascensiond.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2810,8 +2810,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BoostCoin will not work properly.</source>
-        <translation>Advarsel: Kontroller venligst, at computerens dato og klokkeslæt er korrekt! Hvis dit ur er forkert vil BoostCoin ikke fungere korrekt.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ascension will not work properly.</source>
+        <translation>Advarsel: Kontroller venligst, at computerens dato og klokkeslæt er korrekt! Hvis dit ur er forkert vil ascension ikke fungere korrekt.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -3000,24 +3000,24 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=boostcoinrpc
+rpcuser=ascensionrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BoostCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;ascension Alert&quot; admin@foo.com
 </source>
         <translation>% s, skal du indstille et rpcpassword i konfigurationsfilen: 
 % s 
 Det anbefales at bruge følgende tilfældig adgangskode: 
-rpcuser = boostcoinrpc  
+rpcuser = ascensionrpc  
 rpcpassword =% s  
 (du behøver ikke at huske denne adgangskode)  
 Brugernavn og adgangskode må ikke være den samme.  
 Hvis filen ikke findes, skal du oprette den med filtilladelser ejer-læsbar-kun. 
 Det kan også anbefales at sætte alertnotify så du får besked om problemer; 
-for eksempel: alertnotify = echo%% s | mail-s &quot;BoostCoin Alert&quot; admin@foo.com 
+for eksempel: alertnotify = echo%% s | mail-s &quot;ascension Alert&quot; admin@foo.com 
 </translation>
     </message>
     <message>
@@ -3142,13 +3142,13 @@ for eksempel: alertnotify = echo%% s | mail-s &quot;BoostCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  BoostCoin is probably already running.</source>
-        <translation>Kan ikke få en lås på data mappe% s. BoostCoin kører sikkert allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s.  ascension is probably already running.</source>
+        <translation>Kan ikke få en lås på data mappe% s. ascension kører sikkert allerede.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>BoostCoin</source>
-        <translation>BoostCoin</translation>
+        <source>ascension</source>
+        <translation>ascension</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3182,13 +3182,13 @@ for eksempel: alertnotify = echo%% s | mail-s &quot;BoostCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BoostCoin</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Wallet kræver en nyere version af BoostCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ascension</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Wallet kræver en nyere version af ascension</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BoostCoin to complete</source>
-        <translation>Det er nødvendig for wallet at blive omskrevet: Genstart BoostCoin for fuldføre</translation>
+        <source>Wallet needed to be rewritten: restart ascension to complete</source>
+        <translation>Det er nødvendig for wallet at blive omskrevet: Genstart ascension for fuldføre</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3257,8 +3257,8 @@ for eksempel: alertnotify = echo%% s | mail-s &quot;BoostCoin Alert&quot; admin@
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. BoostCoin is probably already running.</source>
-        <translation>Kunne ikke binde sig til% s på denne computer. BoostCoin kører sikkert allerede.</translation>
+        <source>Unable to bind to %s on this computer. ascension is probably already running.</source>
+        <translation>Kunne ikke binde sig til% s på denne computer. ascension kører sikkert allerede.</translation>
     </message>
     <message>
         <location line="-97"/>

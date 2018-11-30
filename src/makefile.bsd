@@ -133,7 +133,7 @@ OBJS= \
     obj/scrypt-x86.o \
     obj/scrypt-x86_64.o
 
-all: boostcoind
+all: ascensiond
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -174,11 +174,11 @@ obj/zerocoin/%.o: zerocoin/%.cpp
 	      -e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	  rm -f $(@:%.o=%.d)
 
-boostcoind: $(OBJS:obj/%=obj/%)
+ascensiond: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f boostcoind
+	-rm -f ascensiond
 	-rm -f obj/*.o
         -rm -f obj/*.P
         -rm -f obj-test/*.o

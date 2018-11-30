@@ -239,7 +239,7 @@ OBJS= \
 	obj/leveldb.o \
 	obj/txdb.o
 
-all: boostcoind
+all: ascensiond
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -281,11 +281,11 @@ obj/%.o: %.c
 	  rm -f $(@:%.o=%.d)
 
 
-boostcoind: $(OBJS:obj/%=obj/%)
+ascensiond: $(OBJS:obj/%=obj/%)
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f boostcoind
+	-rm -f ascensiond
 	-rm -f obj/*.o
 	-rm -f obj/*.P
 	-rm -f obj/build.h

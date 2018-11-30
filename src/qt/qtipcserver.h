@@ -1,8 +1,8 @@
 #ifndef QTIPCSERVER_H
 #define QTIPCSERVER_H
 
-// Define BoostCoin-Qt message queue name
-#define BITCOINURI_QUEUE_NAME "BoostCoinURI"
+// Define ascension-Qt message queue name
+#define BITCOINURI_QUEUE_NAME "ascensionURI"
 
 void ipcScanRelay(int argc, char *argv[]);
 void ipcInit(int argc, char *argv[]);

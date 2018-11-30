@@ -232,7 +232,7 @@ OBJS= \
 	obj/json_spirit_writer.o
 
 
-all: boostcoind
+all: ascensiond
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -296,11 +296,11 @@ obj/anonymize.o: tor/anonymize.cpp
 	-e '/^$$/ d' -e 's/$$/ :/' < $(@:%.o=%.d) >> $(@:%.o=%.P); \
 	rm -f $(@:%.o=%.d)
 
-boostcoind: $(OBJS:obj/%=obj/%) obj/anonymize.o
+ascensiond: $(OBJS:obj/%=obj/%) obj/anonymize.o
 	$(LINK) $(xCXXFLAGS) -o $@ $^ $(xLDFLAGS) $(LIBS)
 
 clean:
-	-rm -f boostcoind
+	-rm -f ascensiond
 	-rm -f obj/*.o
 	-rm -f obj/tor/*.o
 	-rm -f obj/tor/*.P

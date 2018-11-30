@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>About BoostCoin</string>
+   <string>About ascension</string>
   </property>
   <property name="styleSheet">
    <string notr="true">QProgressBar {
@@ -269,7 +269,7 @@ QTabWidget {
           <cursorShape>IBeamCursor</cursorShape>
          </property>
          <property name="text">
-          <string>&lt;b&gt;BoostCoin&lt;/b&gt; version</string>
+          <string>&lt;b&gt;ascension&lt;/b&gt; version</string>
          </property>
          <property name="textInteractionFlags">
           <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -310,7 +310,7 @@ QTabWidget {
         <cursorShape>IBeamCursor</cursorShape>
        </property>
        <property name="text">
-        <string>Copyright © 2014 The BoostCoin developers</string>
+        <string>Copyright © 2014 The ascension developers</string>
        </property>
        <property name="textInteractionFlags">
         <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>

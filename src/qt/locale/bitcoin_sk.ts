@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BoostCoin</source>
-        <translation>O Boostcoin</translation>
+        <source>About ascension</source>
+        <translation>O ascension</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BoostCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BoostCoin&lt;/b&gt; verzia</translation>
+        <source>&lt;b&gt;ascension&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;ascension&lt;/b&gt; verzia</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BoostCoin developers</source>
+Copyright © 2014 The ascension developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BoostCoin developers</translation>
+Copyright © 2014 The ascension developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BoostCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše BoostCoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, takže môžete sledovať, kto Vám platí.</translation>
+        <source>These are your ascension addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše ascension adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, takže môžete sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -80,8 +80,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BoostCoin address</source>
-        <translation>Podpísať správu, že vlastníte BoostCoin adresu</translation>
+        <source>Sign a message to prove you own a ascension address</source>
+        <translation>Podpísať správu, že vlastníte ascension adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BoostCoin address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou BoostCoin adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified ascension address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou ascension adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-58"/>
-        <source>BoostCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>BoostCoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
+        <source>ascension will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>ascension sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom napadnutím vašeho počítača.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -377,8 +377,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about BoostCoin</source>
-        <translation>Zobraziť informácie o BoostCoin</translation>
+        <source>Show information about ascension</source>
+        <translation>Zobraziť informácie o ascension</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -427,13 +427,13 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a BoostCoin address</source>
-        <translation>Poslať mince na BoostCoin adresu</translation>
+        <source>Send coins to a ascension address</source>
+        <translation>Poslať mince na ascension adresu</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for BoostCoin</source>
-        <translation>Upraviť možnosti konfigurácie pre BoostCoin</translation>
+        <source>Modify configuration options for ascension</source>
+        <translation>Upraviť možnosti konfigurácie pre ascension</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -472,8 +472,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-202"/>
-        <source>BoostCoin</source>
-        <translation>BoostCoin</translation>
+        <source>ascension</source>
+        <translation>ascension</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -482,8 +482,8 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About BoostCoin</source>
-        <translation>&amp;O BoostCoin</translation>
+        <source>&amp;About ascension</source>
+        <translation>&amp;O ascension</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -539,13 +539,13 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>BoostCoin client</source>
-        <translation>BoostCoin client</translation>
+        <source>ascension client</source>
+        <translation>ascension client</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to BoostCoin network</source>
-        <translation><numerusform>%n aktívne spojenie s BoostCoin sieťov</numerusform><numerusform>%n aktívnych spojení s BoostCoin sieťov</numerusform><numerusform>%n aktívnych spojení s BoostCoin sieťov</numerusform></translation>
+        <source>%n active connection(s) to ascension network</source>
+        <translation><numerusform>%n aktívne spojenie s ascension sieťov</numerusform><numerusform>%n aktívnych spojení s ascension sieťov</numerusform><numerusform>%n aktívnych spojení s ascension sieťov</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -584,13 +584,13 @@ Tento produkt obsahuje softvér vyvinutý Projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-312"/>
-        <source>About BoostCoin card</source>
-        <translation>O BoostCoin karte</translation>
+        <source>About ascension card</source>
+        <translation>O ascension karte</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about BoostCoin card</source>
-        <translation>Zobraziť informácie o BoostCoin karte</translation>
+        <source>Show information about ascension card</source>
+        <translation>Zobraziť informácie o ascension karte</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -668,8 +668,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BoostCoin address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! To môže byť spôsobené neplatnou BoostCoin adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid ascension address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! To môže byť spôsobené neplatnou ascension adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -728,8 +728,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BoostCoin can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. BoostCoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. ascension can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. ascension už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1062,8 +1062,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BoostCoin address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou BoostCoin adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid ascension address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou ascension adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1081,8 +1081,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>BoostCoin-Qt</source>
-        <translation>BoostCoin-Qt</translation>
+        <source>ascension-Qt</source>
+        <translation>ascension-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1154,13 +1154,13 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BoostCoin after logging in to the system.</source>
-        <translation>Automaticky spustiť BoostCoin po prihlásení sa do systému.</translation>
+        <source>Automatically start ascension after logging in to the system.</source>
+        <translation>Automaticky spustiť ascension po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BoostCoin on system login</source>
-        <translation>&amp;Spustiť BoostCoin pri prihlásení do systému</translation>
+        <source>&amp;Start ascension on system login</source>
+        <translation>&amp;Spustiť ascension pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1179,8 +1179,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BoostCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta BoostCoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the ascension client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta ascension na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1189,8 +1189,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BoostCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojenie k sieti BoostCoin cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the ascension network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojenie k sieti ascension cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1264,8 +1264,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BoostCoin.</source>
-        <translation>Jazyk používateľského rozhrania je možné tu nastaviť. Toto nastavenie sa prejaví až po reštartovaní BoostCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ascension.</source>
+        <translation>Jazyk používateľského rozhrania je možné tu nastaviť. Toto nastavenie sa prejaví až po reštartovaní ascension.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1279,8 +1279,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BoostCoin addresses in the transaction list or not.</source>
-        <translation>Či chcete zobraziť BoostCoin adresy v zozname transakcií alebo nie.</translation>
+        <source>Whether to show ascension addresses in the transaction list or not.</source>
+        <translation>Či chcete zobraziť ascension adresy v zozname transakcií alebo nie.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1326,8 +1326,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BoostCoin.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní BoostCoin.</translation>
+        <source>This setting will take effect after restarting ascension.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní ascension.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1345,8 +1345,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BoostCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou BoostCoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ascension network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou ascension po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1561,8 +1561,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BoostCoin-Qt help message to get a list with possible BoostCoin command-line options.</source>
-        <translation>Zobraziť BoostCoin-Qt nápovedu k získaniu zoznamu pre možnosti BoostCoin príkazového riadku.</translation>
+        <source>Show the ascension-Qt help message to get a list with possible ascension command-line options.</source>
+        <translation>Zobraziť ascension-Qt nápovedu k získaniu zoznamu pre možnosti ascension príkazového riadku.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1581,13 +1581,13 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="-104"/>
-        <source>BoostCoin - Debug window</source>
-        <translation>BoostCoin - Ladiace okno</translation>
+        <source>ascension - Debug window</source>
+        <translation>ascension - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BoostCoin Core</source>
-        <translation>BoostCoin Core</translation>
+        <source>ascension Core</source>
+        <translation>ascension Core</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1596,8 +1596,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BoostCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte Boostcoin ladenie log súbor z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory protokolu.</translation>
+        <source>Open the ascension debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte ascension ladenie log súbor z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory protokolu.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1606,8 +1606,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BoostCoin RPC console.</source>
-        <translation>Vitajte v Boostcoin RPC konzole.</translation>
+        <source>Welcome to the ascension RPC console.</source>
+        <translation>Vitajte v ascension RPC konzole.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1680,8 +1680,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BOST</source>
-        <translation>123.456 BOST {0.00 ?}</translation>
+        <source>0.00 ASN</source>
+        <translation>123.456 ASN {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1750,8 +1750,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BOST</source>
-        <translation>123.456 BOST</translation>
+        <source>123.456 ASN</source>
+        <translation>123.456 ASN</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1765,8 +1765,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Zadajte BoostCoin adresu (napr. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Zadajte ascension adresu (napr. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1865,8 +1865,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid BoostCoin address</source>
-        <translation>VAROVANIE: Neplatná BoostCoin adresa</translation>
+        <source>WARNING: Invalid ascension address</source>
+        <translation>VAROVANIE: Neplatná ascension adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1909,8 +1909,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Adresa pre poslanie platby (napr. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>The address to send the payment to  (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Adresa pre poslanie platby (napr. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1939,8 +1939,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Zadaj a BoostCoin addresu (napr. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Zadaj a ascension addresu (napr. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
 </context>
 <context>
@@ -1963,8 +1963,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Adresa na podpísanie správy (napr. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>The address to sign the message with (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Adresa na podpísanie správy (napr. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2000,8 +2000,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BoostCoin address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto BoostCoin adresu</translation>
+        <source>Sign the message to prove you own this ascension address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto ascension adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2027,13 +2027,13 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Adresa správy bola podpísaná (napr. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>The address the message was signed with (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Adresa správy bola podpísaná (napr. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BoostCoin address</source>
-        <translation>Overte správu, aby zabezpečilo, že bola podpísaná s danou BoostCoin adresu</translation>
+        <source>Verify the message to ensure it was signed with the specified ascension address</source>
+        <translation>Overte správu, aby zabezpečilo, že bola podpísaná s danou ascension adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2043,8 +2043,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Zadajte BoostCoin adresu (napr. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Zadajte ascension adresu (napr. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2053,8 +2053,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BoostCoin signature</source>
-        <translation>Zadajte BoostCoin podpis</translation>
+        <source>Enter ascension signature</source>
+        <translation>Zadajte ascension podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2624,8 +2624,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>BoostCoin version</source>
-        <translation>BoostCoin verzia</translation>
+        <source>ascension version</source>
+        <translation>ascension verzia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2634,8 +2634,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or boostcoind</source>
-        <translation>Pošli príkaz na -server alebo boostcoind</translation>
+        <source>Send command to -server or ascensiond</source>
+        <translation>Pošli príkaz na -server alebo ascensiond</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2654,13 +2654,13 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: boostcoin.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: boostcoin.conf)</translation>
+        <source>Specify configuration file (default: ascension.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: ascension.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: boostcoind.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: boostcoind.pid)</translation>
+        <source>Specify pid file (default: ascensiond.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: ascensiond.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2809,8 +2809,8 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BoostCoin will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny BoostCoin nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ascension will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny ascension nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2999,24 +2999,24 @@ Sumy nižšie ako 0,546 násobok minimálneho poplatku sú zobrazené ako DUST.<
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=boostcoinrpc
+rpcuser=ascensionrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BoostCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;ascension Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
  %s
 Je odporúčané použiť nasledujúce náhodné heslo:
-rpcuser=boostcoinrpc
+rpcuser=ascensionrpc
 rpcpassword=%s
 (Nemusíte si pamätať toto heslo)
 Užívateľské meno a heslo nesmú byť rovnaké. 
 Ak súbor neexistuje, vytvorte ho s oprávneniami súborov vlastníkov iba na čítatanie.
 Odporúča sa tiež nastaviť alertnotify, takže budete upozornení na problémy;
-napríklad: alertnotify=echo %%s | mail -s &quot;BoostCoin Alert&quot; admin@foo.com</translation>
+napríklad: alertnotify=echo %%s | mail -s &quot;ascension Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+51"/>
@@ -3140,13 +3140,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;BoostCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  BoostCoin is probably already running.</source>
-        <translation>Nemožno získať zámok na dátový adresár %s. BoostCoin už pravdepodobne beží.</translation>
+        <source>Cannot obtain a lock on data directory %s.  ascension is probably already running.</source>
+        <translation>Nemožno získať zámok na dátový adresár %s. ascension už pravdepodobne beží.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>BoostCoin</source>
-        <translation>BoostCoin</translation>
+        <source>ascension</source>
+        <translation>ascension</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3180,13 +3180,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;BoostCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BoostCoin</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu BoostCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ascension</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu ascension</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BoostCoin to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte BoostCoin k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart ascension to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte ascension k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3255,8 +3255,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;BoostCoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. BoostCoin is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. BoostCoin je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. ascension is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. ascension je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-97"/>

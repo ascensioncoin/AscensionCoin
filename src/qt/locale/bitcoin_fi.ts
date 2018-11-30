@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BoostCoin</source>
-        <translation>Tietoa Boostcoinista</translation>
+        <source>About ascension</source>
+        <translation>Tietoa ascensionista</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BoostCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BoostCoin&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;ascension&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;ascension&lt;/b&gt; versio</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BoostCoin developers</source>
+Copyright © 2014 The ascension developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -64,8 +64,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BoostCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Nämä ovat BoostCoin-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
+        <source>These are your ascension addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Nämä ovat ascension-osoitteesi rahansiirtojen vastaanottoa varten. Jos haluat, voit antaa jokaiselle lähettäjälle oman osoitteen jotta voit pitää kirjaa sinulle rahaa siirtäneistä henkilöistä.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -79,8 +79,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BoostCoin address</source>
-        <translation>Allekirjoita viesti osoittaaksesi BoostCoin-osoitteesi omistajuus</translation>
+        <source>Sign a message to prove you own a ascension address</source>
+        <translation>Allekirjoita viesti osoittaaksesi ascension-osoitteesi omistajuus</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -94,8 +94,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BoostCoin address</source>
-        <translation>Vahvista viesti varmistaaksesi että kyseinen BoostCoin-osoitteesi on allekirjoittanut sen</translation>
+        <source>Verify a message to ensure it was signed with a specified ascension address</source>
+        <translation>Vahvista viesti varmistaaksesi että kyseinen ascension-osoitteesi on allekirjoittanut sen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -262,8 +262,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-58"/>
-        <source>BoostCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>BoostCoin-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
+        <source>ascension will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>ascension-ohjelma sulkee itsensä päättääkseen salauksen luonnin. Muista, että lompakon salaaminen ei täysin turvaa kolikoitasi haittaohjelmien aiheuttamien varkauksien uhalta.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -376,8 +376,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about BoostCoin</source>
-        <translation>Näytä tietoja BoostCoinista</translation>
+        <source>Show information about ascension</source>
+        <translation>Näytä tietoja ascensionista</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -426,13 +426,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a BoostCoin address</source>
-        <translation>Lähetä kolikkoja BoostCoin osoitteeseen</translation>
+        <source>Send coins to a ascension address</source>
+        <translation>Lähetä kolikkoja ascension osoitteeseen</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for BoostCoin</source>
-        <translation>Mukauta BoostCoinin konfigurointiasetuksia</translation>
+        <source>Modify configuration options for ascension</source>
+        <translation>Mukauta ascensionin konfigurointiasetuksia</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -471,8 +471,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-202"/>
-        <source>BoostCoin</source>
-        <translation>BoostCoin</translation>
+        <source>ascension</source>
+        <translation>ascension</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -481,8 +481,8 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About BoostCoin</source>
-        <translation>&amp;Tietoa BoostCoinista</translation>
+        <source>&amp;About ascension</source>
+        <translation>&amp;Tietoa ascensionista</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -538,13 +538,13 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>BoostCoin client</source>
-        <translation>BoostCoin-asiakas</translation>
+        <source>ascension client</source>
+        <translation>ascension-asiakas</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to BoostCoin network</source>
-        <translation><numerusform>%n aktiivinen yhteys BoostCoin-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä BoostCoin-verkkoon</numerusform></translation>
+        <source>%n active connection(s) to ascension network</source>
+        <translation><numerusform>%n aktiivinen yhteys ascension-verkkoon</numerusform><numerusform>%n aktiivista yhteyttä ascension-verkkoon</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -583,12 +583,12 @@ Tämä tuote sisältää OpenSSL-projektin kehittämää ohjelmistoa OpenSSL-ty�
     </message>
     <message>
         <location line="-312"/>
-        <source>About BoostCoin card</source>
+        <source>About ascension card</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about BoostCoin card</source>
+        <source>Show information about ascension card</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -667,8 +667,8 @@ Osoite: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BoostCoin address or malformed URI parameters.</source>
-        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä BoostCoin-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid ascension address or malformed URI parameters.</source>
+        <translation>URI-merkkijonoa ei voida jäsentää! Tämä voi johtua väärästä ascension-osoitteesta tai väärässä muodossa olevista URI-parametreistä.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -727,8 +727,8 @@ Osoite: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BoostCoin can no longer continue safely and will quit.</source>
-        <translation>Vakava virhe kohdattu. BoostCoin-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
+        <source>A fatal error occurred. ascension can no longer continue safely and will quit.</source>
+        <translation>Vakava virhe kohdattu. ascension-ohjelma ei voi enää jatkaa turvallisesti ja sulkee itsensä.</translation>
     </message>
 </context>
 <context>
@@ -1061,8 +1061,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BoostCoin address.</source>
-        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty BoostCoin-osoite.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid ascension address.</source>
+        <translation>Syöttämäsi osoite &quot;%1&quot; ei ole hyväksytty ascension-osoite.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1080,8 +1080,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>BoostCoin-Qt</source>
-        <translation>BoostCoin-Qt</translation>
+        <source>ascension-Qt</source>
+        <translation>ascension-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1153,13 +1153,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BoostCoin after logging in to the system.</source>
-        <translation>Käynnistä BoostCoin-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
+        <source>Automatically start ascension after logging in to the system.</source>
+        <translation>Käynnistä ascension-asiakasohjelma automaattisesti kun olet kirjautunut järjestelmään.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BoostCoin on system login</source>
-        <translation>%Käynnistä BoostCoin-asiakasohjelma kirjautuessasi</translation>
+        <source>&amp;Start ascension on system login</source>
+        <translation>%Käynnistä ascension-asiakasohjelma kirjautuessasi</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1178,8 +1178,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BoostCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avaa BoostCoin-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
+        <source>Automatically open the ascension client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avaa ascension-asiakkaalle automaattisesti portti reitittimestä. Tämä toimii vain, kun reitittimesi tukee UPnP:tä ja se on aktivoituna.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1188,8 +1188,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BoostCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Yhdistä BoostCoin-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n läpi).</translation>
+        <source>Connect to the ascension network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Yhdistä ascension-verkkoon SOCKS-välityspalvelimen lävitse. (esim. yhdistettäessä Tor:n läpi).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1263,8 +1263,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BoostCoin.</source>
-        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta BoostCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ascension.</source>
+        <translation>Käyttöliittymän kieli voidaan valita tästä. Tämä asetus tulee voimaan vasta ascension-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1278,8 +1278,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BoostCoin addresses in the transaction list or not.</source>
-        <translation>Näytä tai piilota BoostCoin-osoitteet rahansiirtolistassa.</translation>
+        <source>Whether to show ascension addresses in the transaction list or not.</source>
+        <translation>Näytä tai piilota ascension-osoitteet rahansiirtolistassa.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1325,8 +1325,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BoostCoin.</source>
-        <translation>Tämä asetus tulee voimaan vasta BoostCoin-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
+        <source>This setting will take effect after restarting ascension.</source>
+        <translation>Tämä asetus tulee voimaan vasta ascension-asiakasohjelman uudelleenkäynnistyksen jälkeen.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1344,8 +1344,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BoostCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti BoostCoin-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ascension network after a connection is established, but this process has not completed yet.</source>
+        <translation>Näytettävät tiedot voivat olla vanhentuneet. Lompakkosi synkronoituu automaattisesti ascension-verkon kanssa kun yhteys on muodostettu, mutta tätä prosessia ei ole viety vielä päätökseen.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1560,8 +1560,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BoostCoin-Qt help message to get a list with possible BoostCoin command-line options.</source>
-        <translation>Näytä BoostCoin-Qt:n avustusohje saadaksesi listan käytettävistä BoostCoinin komentokehotteen määritteistä.</translation>
+        <source>Show the ascension-Qt help message to get a list with possible ascension command-line options.</source>
+        <translation>Näytä ascension-Qt:n avustusohje saadaksesi listan käytettävistä ascensionin komentokehotteen määritteistä.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1580,13 +1580,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>BoostCoin - Debug window</source>
-        <translation>BoostCoin - Debug-ikkuna</translation>
+        <source>ascension - Debug window</source>
+        <translation>ascension - Debug-ikkuna</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BoostCoin Core</source>
-        <translation>BoostCoinin ydin</translation>
+        <source>ascension Core</source>
+        <translation>ascensionin ydin</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1595,8 +1595,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BoostCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa BoostCoin-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
+        <source>Open the ascension debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa ascension-asiakasohjelman debug-lokitiedosto nykyisestä hakemistostaan. Tämä voi kestää muutaman sekunnin avattaessa suuria lokitiedostoja.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1605,8 +1605,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BoostCoin RPC console.</source>
-        <translation>Tervetuloa BoostCoinin RPC-konsoliin.</translation>
+        <source>Welcome to the ascension RPC console.</source>
+        <translation>Tervetuloa ascensionin RPC-konsoliin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1679,8 +1679,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BOST</source>
-        <translation>123.456 BOST {0.00 ?}</translation>
+        <source>0.00 ASN</source>
+        <translation>123.456 ASN {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1749,8 +1749,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BOST</source>
-        <translation>123.456 BOST</translation>
+        <source>123.456 ASN</source>
+        <translation>123.456 ASN</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1764,8 +1764,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Syötä BoostCoin-osoite (esim. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Syötä ascension-osoite (esim. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1864,8 +1864,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid BoostCoin address</source>
-        <translation>VAROITUS: Epäkelpo BoostCoin-osoite</translation>
+        <source>WARNING: Invalid ascension address</source>
+        <translation>VAROITUS: Epäkelpo ascension-osoite</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1908,8 +1908,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Osoite, johon maksu lähetetään (esim. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>The address to send the payment to  (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Osoite, johon maksu lähetetään (esim. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1938,8 +1938,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Syötä BoostCoin-osoite (esim. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Syötä ascension-osoite (esim. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
 </context>
 <context>
@@ -1962,8 +1962,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Osoite, jolle viesti kirjataan (esim. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>The address to sign the message with (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Osoite, jolle viesti kirjataan (esim. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1999,8 +1999,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BoostCoin address</source>
-        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän BoostCoin-osoitteen</translation>
+        <source>Sign the message to prove you own this ascension address</source>
+        <translation>Allekirjoita viesti vahvistaaksesi, että omistat tämän ascension-osoitteen</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2026,13 +2026,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Osoite, jolla viesti on allekirjoitettu (esim. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM) </translation>
+        <source>The address the message was signed with (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Osoite, jolla viesti on allekirjoitettu (esim. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM) </translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BoostCoin address</source>
-        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä BoostCoin-osoitteella</translation>
+        <source>Verify the message to ensure it was signed with the specified ascension address</source>
+        <translation>Vahvista viesti varmistaaksesi että se on allekirjoitettu kyseisellä ascension-osoitteella</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2042,8 +2042,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Syötä BoostCoin-osoite (esim. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Syötä ascension-osoite (esim. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2052,8 +2052,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BoostCoin signature</source>
-        <translation>Syötä BoostCoin-allekirjoitus</translation>
+        <source>Enter ascension signature</source>
+        <translation>Syötä ascension-allekirjoitus</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2623,8 +2623,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>BoostCoin version</source>
-        <translation>BoostCoinin versio</translation>
+        <source>ascension version</source>
+        <translation>ascensionin versio</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2633,8 +2633,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or boostcoind</source>
-        <translation>Syötä komento kohteeseen -server tai boostcoind</translation>
+        <source>Send command to -server or ascensiond</source>
+        <translation>Syötä komento kohteeseen -server tai ascensiond</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2653,13 +2653,13 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: boostcoin.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: boostcoin.conf)</translation>
+        <source>Specify configuration file (default: ascension.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: ascension.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: boostcoind.pid)</source>
-        <translation>Määritä prosessitiedosto (oletus: boostcoin.pid)</translation>
+        <source>Specify pid file (default: ascensiond.pid)</source>
+        <translation>Määritä prosessitiedosto (oletus: ascension.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2808,8 +2808,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BoostCoin will not work properly.</source>
-        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, BoostCoin ei toimi oikein.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ascension will not work properly.</source>
+        <translation>Varoitus: Tarkista, että tietokoneesi aika ja päivämäärä ovat oikeassa! Jos kellosi on väärässä, ascension ei toimi oikein.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2998,23 +2998,23 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=boostcoinrpc
+rpcuser=ascensionrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BoostCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;ascension Alert&quot; admin@foo.com
 </source>
         <translation>%s, sinun on asetettava rpcpassword asetustiedostoon:
 %s
 On suositeltavaa, että käytät seuraavaa arvottua salasanaa:
-rpcuser=boostcoinrpc
+rpcuser=ascensionrpc
 rpcpassword=%s
 (Sinun ei tarvitse muistaa tätä salasanaa)
 Käyttäjänimen ja salasanan EI TULE OLLA SAMOJA.
 Jos tiedostoa ei ole olemassa, luo se asettaen samalla omistajan lukuoikeudet.
-On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;BoostCoin Alert&quot; admin@foo.com
+On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; esimerkiksi: alertnotify=echo %%s | mail -s &quot;ascension Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3139,13 +3139,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  BoostCoin is probably already running.</source>
-        <translation>Ei voida saavuttaa lukkoa datatiedostossa %s. BoostCoin-asiakasohjelma on ehkä jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s.  ascension is probably already running.</source>
+        <translation>Ei voida saavuttaa lukkoa datatiedostossa %s. ascension-asiakasohjelma on ehkä jo käynnissä.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>BoostCoin</source>
-        <translation>BoostCoin</translation>
+        <source>ascension</source>
+        <translation>ascension</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3179,13 +3179,13 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BoostCoin</source>
-        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version BoostCoin-asiakasohjelmasta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ascension</source>
+        <translation>Virhe ladattaessa wallet.dat-tiedostoa: Lompakko tarvitsee uudemman version ascension-asiakasohjelmasta</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BoostCoin to complete</source>
-        <translation>Lompakko on kirjoitettava uudelleen: käynnistä BoostCoin-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
+        <source>Wallet needed to be rewritten: restart ascension to complete</source>
+        <translation>Lompakko on kirjoitettava uudelleen: käynnistä ascension-asiakasohjelma uudelleen päättääksesi toiminnon</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3254,8 +3254,8 @@ On myös suositeltavaa asettaa alertnotify jolloin olet tiedotettu ongelmista; e
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. BoostCoin is probably already running.</source>
-        <translation>Ei voitu liittää %s tällä tietokoneella. BoostCoin-asiakasohjelma on jo ehkä päällä.</translation>
+        <source>Unable to bind to %s on this computer. ascension is probably already running.</source>
+        <translation>Ei voitu liittää %s tällä tietokoneella. ascension-asiakasohjelma on jo ehkä päällä.</translation>
     </message>
     <message>
         <location line="-97"/>

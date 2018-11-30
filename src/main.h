@@ -547,7 +547,7 @@ public:
 
     bool IsCoinStake() const
     {
-        // boostcoin: the coin stake transaction is marked with the first output empty
+        // ascension: the coin stake transaction is marked with the first output empty
         return (vin.size() > 0 && (!vin[0].prevout.IsNull()) && vout.size() >= 2 && vout[0].IsEmpty());
     }
 
@@ -711,7 +711,7 @@ public:
     bool ClientConnectInputs();
     bool CheckTransaction() const;
     bool AcceptToMemoryPool(CTxDB& txdb, bool fCheckInputs=true, bool* pfMissingInputs=NULL);
-    bool GetCoinAge(CTxDB& txdb, uint64_t& nCoinAge) const;  // boostcoin: get transaction coin age
+    bool GetCoinAge(CTxDB& txdb, uint64_t& nCoinAge) const;  // ascension: get transaction coin age
 
 protected:
     const CTxOut& GetOutputFor(const CTxIn& input, const MapPrevTx& inputs) const;
@@ -863,7 +863,7 @@ public:
     // network and disk
     std::vector<CTransaction> vtx;
 
-    // boostcoin: block signature - signed by one of the coin base txout[N]'s owner
+    // ascension: block signature - signed by one of the coin base txout[N]'s owner
     std::vector<unsigned char> vchBlockSig;
 
     // memory only
@@ -942,7 +942,7 @@ public:
         return nEntropyBit;
     }
 
-    // boostcoin: two types of block: proof-of-work or proof-of-stake
+    // ascension: two types of block: proof-of-work or proof-of-stake
     bool IsProofOfStake() const
     {
         return (vtx.size() > 1 && vtx[1].IsCoinStake());
@@ -958,7 +958,7 @@ public:
         return IsProofOfStake()? std::make_pair(vtx[1].vin[0].prevout, vtx[1].nTime) : std::make_pair(COutPoint(), (unsigned int)0);
     }
 
-    // boostcoin: get max transaction timestamp
+    // ascension: get max transaction timestamp
     int64_t GetMaxTransactionTime() const
     {
         int64_t maxTransactionTime = 0;
@@ -1101,7 +1101,7 @@ public:
     bool AddToBlockIndex(unsigned int nFile, unsigned int nBlockPos, const uint256& hashProofOfStake);
     bool CheckBlock(bool fCheckPOW=true, bool fCheckMerkleRoot=true, bool fCheckSig=true) const;
     bool AcceptBlock();
-    bool GetCoinAge(uint64_t& nCoinAge) const; // boostcoin: calculate total coin age spent in block
+    bool GetCoinAge(uint64_t& nCoinAge) const; // ascension: calculate total coin age spent in block
     bool SignBlock(CWallet& keystore, int64_t nFees);
     bool CheckBlockSignature() const;
 
@@ -1129,13 +1129,13 @@ public:
     CBlockIndex* pnext;
     unsigned int nFile;
     unsigned int nBlockPos;
-    uint256 nChainTrust; // boostcoin: trust score of block chain
+    uint256 nChainTrust; // ascension: trust score of block chain
     int nHeight;
 
     int64_t nMint;
     int64_t nMoneySupply;
 
-    unsigned int nFlags;  // boostcoin: block index flags
+    unsigned int nFlags;  // ascension: block index flags
     enum  
     {
         BLOCK_PROOF_OF_STAKE = (1 << 0), // is proof-of-stake block

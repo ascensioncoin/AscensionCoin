@@ -18,7 +18,7 @@ class CMixTx {
   std::string from;
   std::string to;
   std::string addrName;
-  int useboostcoinsend;
+  int useascensionsend;
   RSA* rsa;
 
   CMixTx() {}
@@ -87,7 +87,7 @@ class CMixStart {
   int64 smtxid;
   std::string key;
   std::string to;
-  int useboostcoinsend;
+  int useascensionsend;
 
   IMPLEMENT_SERIALIZE
     (
@@ -95,7 +95,7 @@ class CMixStart {
      READWRITE(this->smtxid);
      READWRITE(this->key);
      READWRITE(this->to);
-     READWRITE(this->useboostcoinsend);
+     READWRITE(this->useascensionsend);
      )
 
   CMixStart() {};

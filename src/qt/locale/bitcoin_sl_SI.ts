@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BoostCoin</source>
-        <translation>O BoostCoin</translation>
+        <source>About ascension</source>
+        <translation>O ascension</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BoostCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BoostCoin&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;ascension&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;ascension&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BoostCoin developers</source>
+Copyright © 2014 The ascension developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -63,8 +63,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BoostCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>To so vaši BoostCoin naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
+        <source>These are your ascension addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>To so vaši ascension naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -78,8 +78,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BoostCoin address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva BoostCoin naslova</translation>
+        <source>Sign a message to prove you own a ascension address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva ascension naslova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -93,8 +93,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BoostCoin address</source>
-        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim BoostCoin naslovom</translation>
+        <source>Verify a message to ensure it was signed with a specified ascension address</source>
+        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim ascension naslovom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -261,8 +261,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-58"/>
-        <source>BoostCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>BoostCoin se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
+        <source>ascension will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>ascension se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -375,8 +375,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about BoostCoin</source>
-        <translation>Pokaži informacije o BoostCoin</translation>
+        <source>Show information about ascension</source>
+        <translation>Pokaži informacije o ascension</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -425,13 +425,13 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a BoostCoin address</source>
-        <translation>Pošlji kovance na BoostCoin naslov</translation>
+        <source>Send coins to a ascension address</source>
+        <translation>Pošlji kovance na ascension naslov</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for BoostCoin</source>
-        <translation>Spremeni nastavitve za Boostcoin</translation>
+        <source>Modify configuration options for ascension</source>
+        <translation>Spremeni nastavitve za ascension</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -470,8 +470,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-202"/>
-        <source>BoostCoin</source>
-        <translation>BoostCoin</translation>
+        <source>ascension</source>
+        <translation>ascension</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -480,8 +480,8 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About BoostCoin</source>
-        <translation>&amp;O BoostCoin</translation>
+        <source>&amp;About ascension</source>
+        <translation>&amp;O ascension</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -537,13 +537,13 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>BoostCoin client</source>
-        <translation>BoostCoin program</translation>
+        <source>ascension client</source>
+        <translation>ascension program</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to BoostCoin network</source>
-        <translation><numerusform>%n aktivne povezave na BoostCoin omrežje</numerusform><numerusform>%n aktivnih povezav na BoostCoin omrežje</numerusform><numerusform>%n aktivnih povezav na BoostCoin omrežje</numerusform><numerusform>%n aktivnih povezav na BoostCoin omrežje</numerusform></translation>
+        <source>%n active connection(s) to ascension network</source>
+        <translation><numerusform>%n aktivne povezave na ascension omrežje</numerusform><numerusform>%n aktivnih povezav na ascension omrežje</numerusform><numerusform>%n aktivnih povezav na ascension omrežje</numerusform><numerusform>%n aktivnih povezav na ascension omrežje</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -582,12 +582,12 @@ Ta proizvod vključuje softver razvit s strani projekta OpenSSL za uporabo v Ope
     </message>
     <message>
         <location line="-312"/>
-        <source>About BoostCoin card</source>
+        <source>About ascension card</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about BoostCoin card</source>
+        <source>Show information about ascension card</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -667,8 +667,8 @@ Naslov: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BoostCoin address or malformed URI parameters.</source>
-        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega BoostCoin naslova ali slabih parametrov URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid ascension address or malformed URI parameters.</source>
+        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega ascension naslova ali slabih parametrov URI.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -727,8 +727,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BoostCoin can no longer continue safely and will quit.</source>
-        <translation>Prišlo je do usodne napake. Program BoostCoin se ne more več varno nadaljevati in se bo zato zaprl. </translation>
+        <source>A fatal error occurred. ascension can no longer continue safely and will quit.</source>
+        <translation>Prišlo je do usodne napake. Program ascension se ne more več varno nadaljevati in se bo zato zaprl. </translation>
     </message>
 </context>
 <context>
@@ -1061,8 +1061,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BoostCoin address.</source>
-        <translation>Vneseni naslov &quot;%1&quot; ni veljaven BoostCoin naslov.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid ascension address.</source>
+        <translation>Vneseni naslov &quot;%1&quot; ni veljaven ascension naslov.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1080,8 +1080,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>BoostCoin-Qt</source>
-        <translation>BoostCoin-Qt</translation>
+        <source>ascension-Qt</source>
+        <translation>ascension-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1153,13 +1153,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BoostCoin after logging in to the system.</source>
-        <translation>Avtomatično zaženi BoostCoin ob zagonu sistema.</translation>
+        <source>Automatically start ascension after logging in to the system.</source>
+        <translation>Avtomatično zaženi ascension ob zagonu sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BoostCoin on system login</source>
-        <translation>&amp;Zaženi BoostCoin ob prijavi v sistem</translation>
+        <source>&amp;Start ascension on system login</source>
+        <translation>&amp;Zaženi ascension ob prijavi v sistem</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1178,8 +1178,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BoostCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata na routerju za BoostCoin program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
+        <source>Automatically open the ascension client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata na routerju za ascension program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1188,8 +1188,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BoostCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Poveži se na BoostCoin omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
+        <source>Connect to the ascension network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Poveži se na ascension omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1263,8 +1263,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BoostCoin.</source>
-        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu BoostCoin aplikacije. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ascension.</source>
+        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu ascension aplikacije. </translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1278,8 +1278,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BoostCoin addresses in the transaction list or not.</source>
-        <translation>Izbira prikaza BoostCoin naslovov v seznamu transakcij.</translation>
+        <source>Whether to show ascension addresses in the transaction list or not.</source>
+        <translation>Izbira prikaza ascension naslovov v seznamu transakcij.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1325,8 +1325,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BoostCoin.</source>
-        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu BoostCoin aplikacije</translation>
+        <source>This setting will take effect after restarting ascension.</source>
+        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu ascension aplikacije</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1344,8 +1344,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BoostCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z BoostCoin omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ascension network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z ascension omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1560,8 +1560,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BoostCoin-Qt help message to get a list with possible BoostCoin command-line options.</source>
-        <translation>Prikaži BoostCoin-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice BoostCoin aplikacije</translation>
+        <source>Show the ascension-Qt help message to get a list with possible ascension command-line options.</source>
+        <translation>Prikaži ascension-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice ascension aplikacije</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1580,13 +1580,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>BoostCoin - Debug window</source>
-        <translation>BoostCoin - okno za odpravljanje napak</translation>
+        <source>ascension - Debug window</source>
+        <translation>ascension - okno za odpravljanje napak</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BoostCoin Core</source>
-        <translation>BoostCoin jedro</translation>
+        <source>ascension Core</source>
+        <translation>ascension jedro</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1595,8 +1595,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BoostCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpri BoostCoin datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
+        <source>Open the ascension debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Odpri ascension datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1605,8 +1605,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BoostCoin RPC console.</source>
-        <translation>Dobrodošli v BoostCoin RPC konzoli.</translation>
+        <source>Welcome to the ascension RPC console.</source>
+        <translation>Dobrodošli v ascension RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1679,8 +1679,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BOST</source>
-        <translation>123.456 BOST {0.00 ?}</translation>
+        <source>0.00 ASN</source>
+        <translation>123.456 ASN {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1749,8 +1749,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BOST</source>
-        <translation>123.456 BOST</translation>
+        <source>123.456 ASN</source>
+        <translation>123.456 ASN</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1764,8 +1764,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Vnesite BoostCoin naslov (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Vnesite ascension naslov (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1864,8 +1864,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid BoostCoin address</source>
-        <translation>OPOZORILO: Neveljaven BoostCoin naslov</translation>
+        <source>WARNING: Invalid ascension address</source>
+        <translation>OPOZORILO: Neveljaven ascension naslov</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1908,8 +1908,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Naslov kamor želite poslati plačilo (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>The address to send the payment to  (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Naslov kamor želite poslati plačilo (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1938,8 +1938,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Vnesite BoostCoin naslov (npr. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Vnesite ascension naslov (npr. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
 </context>
 <context>
@@ -1962,8 +1962,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Naslov s katerim želite podpisati sporočilo (npr. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>The address to sign the message with (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Naslov s katerim želite podpisati sporočilo (npr. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1999,8 +1999,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BoostCoin address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva BoostCoin naslova</translation>
+        <source>Sign the message to prove you own this ascension address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva ascension naslova</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2026,13 +2026,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Naslov s katerim je bilo podpisano sporočilo (npr. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>The address the message was signed with (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Naslov s katerim je bilo podpisano sporočilo (npr. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BoostCoin address</source>
-        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim BoostCoin naslovom</translation>
+        <source>Verify the message to ensure it was signed with the specified ascension address</source>
+        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim ascension naslovom</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2042,8 +2042,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Vnesite BoostCoin naslov (npr. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Vnesite ascension naslov (npr. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2052,8 +2052,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BoostCoin signature</source>
-        <translation>Vnesite BoostCoin podpis</translation>
+        <source>Enter ascension signature</source>
+        <translation>Vnesite ascension podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2623,8 +2623,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>BoostCoin version</source>
-        <translation>BoostCoin različica</translation>
+        <source>ascension version</source>
+        <translation>ascension različica</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2633,7 +2633,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or boostcoind</source>
+        <source>Send command to -server or ascensiond</source>
         <translation>Pošlji ukaz na -server ali blackoind</translation>
     </message>
     <message>
@@ -2653,13 +2653,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: boostcoin.conf)</source>
-        <translation>Določi konfiguracijsko datoteko (privzeto: boostcoin.conf)</translation>
+        <source>Specify configuration file (default: ascension.conf)</source>
+        <translation>Določi konfiguracijsko datoteko (privzeto: ascension.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: boostcoind.pid)</source>
-        <translation>Določi pid datoteko (privzeto: boostcoin.pid)</translation>
+        <source>Specify pid file (default: ascensiond.pid)</source>
+        <translation>Določi pid datoteko (privzeto: ascension.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2808,8 +2808,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BoostCoin will not work properly.</source>
-        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno BoostCoin ne bo deloval.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ascension will not work properly.</source>
+        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno ascension ne bo deloval.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -2998,24 +2998,24 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=boostcoinrpc
+rpcuser=ascensionrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BoostCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;ascension Alert&quot; admin@foo.com
 </source>
         <translation>%s, nastaviti morate rpcgeslo v konfiguracijski datoteki: 
  %s
 Priporočeno je, da uporabite naslednje naključno geslo:
-rpcuser=boostcoinrpc
+rpcuser=ascensionrpc
 rpcpassword=%s
 (tega gesla si vam ni potrebno zapomniti)
 Uporabniško ime in geslo NE SMETA biti ista. 
 Če datoteka ne obstaja, jo ustvarite z lastniškimi dovoljenji za datoteke. 
 Prav tako je priporočeno, da nastavite alernotify, tkako da vas opozori na probleme;
-na primer: alertnotify=echo %%s | mail -s &quot;BoostCoin Alarm&quot; admin@foo.com
+na primer: alertnotify=echo %%s | mail -s &quot;ascension Alarm&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3140,13 +3140,13 @@ na primer: alertnotify=echo %%s | mail -s &quot;BoostCoin Alarm&quot; admin@foo.
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  BoostCoin is probably already running.</source>
-        <translation>Ni bilo mogoče najti podatkovnega imenika %s. Aplikacija BoostCoin je verjetno že zagnana.</translation>
+        <source>Cannot obtain a lock on data directory %s.  ascension is probably already running.</source>
+        <translation>Ni bilo mogoče najti podatkovnega imenika %s. Aplikacija ascension je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>BoostCoin</source>
-        <translation>BoostCoin</translation>
+        <source>ascension</source>
+        <translation>ascension</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3180,13 +3180,13 @@ na primer: alertnotify=echo %%s | mail -s &quot;BoostCoin Alarm&quot; admin@foo.
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BoostCoin</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo BoostCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ascension</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo ascension</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BoostCoin to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno odprite BoostCoin za dokončanje</translation>
+        <source>Wallet needed to be rewritten: restart ascension to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno odprite ascension za dokončanje</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3255,8 +3255,8 @@ na primer: alertnotify=echo %%s | mail -s &quot;BoostCoin Alarm&quot; admin@foo.
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. BoostCoin is probably already running.</source>
-        <translation>Navezava v %s  na tem računalniku ni mogoča BoostCoin aplikacija je verjetno že zagnana.</translation>
+        <source>Unable to bind to %s on this computer. ascension is probably already running.</source>
+        <translation>Navezava v %s  na tem računalniku ni mogoča ascension aplikacija je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-97"/>

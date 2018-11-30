@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BoostCoin</source>
-        <translation>Acerca de BoostCoin</translation>
+        <source>About ascension</source>
+        <translation>Acerca de ascension</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BoostCoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;BoostCoin&lt;/b&gt; versión</translation>
+        <source>&lt;b&gt;ascension&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;ascension&lt;/b&gt; versión</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BoostCoin developers</source>
+Copyright © 2014 The ascension developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BoostCoin developers</translation>
+Copyright © 2014 The ascension developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -68,8 +68,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BoostCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estas son las direcciones de BoostCoin para recibir pagos. Es posible que desee dar una diferente a cada remitente para que pueda realizar un seguimiento de quien te está pagando.</translation>
+        <source>These are your ascension addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estas son las direcciones de ascension para recibir pagos. Es posible que desee dar una diferente a cada remitente para que pueda realizar un seguimiento de quien te está pagando.</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -83,8 +83,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BoostCoin address</source>
-        <translation>Firmar un mensaje para demostrar que es dueño de su dirección de BoostCoin</translation>
+        <source>Sign a message to prove you own a ascension address</source>
+        <translation>Firmar un mensaje para demostrar que es dueño de su dirección de ascension</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -98,8 +98,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BoostCoin address</source>
-        <translation>Verifique el mensaje para asegurarse que fue firmado por una dirección específica de BoostCoin</translation>
+        <source>Verify a message to ensure it was signed with a specified ascension address</source>
+        <translation>Verifique el mensaje para asegurarse que fue firmado por una dirección específica de ascension</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -266,8 +266,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-58"/>
-        <source>BoostCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>BoostCoin cerrará para terminar el proceso de encriptación. Recuerde que la encriptación de su monedero no puede proteger completamente que sus monedas sean robadas por malware infectando su computadora.</translation>
+        <source>ascension will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>ascension cerrará para terminar el proceso de encriptación. Recuerde que la encriptación de su monedero no puede proteger completamente que sus monedas sean robadas por malware infectando su computadora.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -380,8 +380,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about BoostCoin</source>
-        <translation>Mostrar información sobre BoostCoin</translation>
+        <source>Show information about ascension</source>
+        <translation>Mostrar información sobre ascension</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -430,13 +430,13 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a BoostCoin address</source>
-        <translation>Enviar monedas a una dirección de BoostCoin</translation>
+        <source>Send coins to a ascension address</source>
+        <translation>Enviar monedas a una dirección de ascension</translation>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for BoostCoin</source>
-        <translation>Modificar las opciones de configuración para BoostCoin</translation>
+        <source>Modify configuration options for ascension</source>
+        <translation>Modificar las opciones de configuración para ascension</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -475,8 +475,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-202"/>
-        <source>BoostCoin</source>
-        <translation>BoostCoin</translation>
+        <source>ascension</source>
+        <translation>ascension</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -485,8 +485,8 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About BoostCoin</source>
-        <translation>Acerca de BoostCoin</translation>
+        <source>&amp;About ascension</source>
+        <translation>Acerca de ascension</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -542,13 +542,13 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>BoostCoin client</source>
-        <translation>Cliente BoostCoin</translation>
+        <source>ascension client</source>
+        <translation>Cliente ascension</translation>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to BoostCoin network</source>
-        <translation><numerusform>%n conexión activa a la red BoostCoin</numerusform><numerusform>%n conexiones activas a la red BoostCoin</numerusform></translation>
+        <source>%n active connection(s) to ascension network</source>
+        <translation><numerusform>%n conexión activa a la red ascension</numerusform><numerusform>%n conexiones activas a la red ascension</numerusform></translation>
     </message>
     <message>
         <location line="+40"/>
@@ -587,13 +587,13 @@ Eric Young (eay@cryptsoft.com) y el software UPnP escrito por Thomas Bernard.</t
     </message>
     <message>
         <location line="-312"/>
-        <source>About BoostCoin card</source>
-        <translation>Sobre la tarjeta BoostCoin</translation>
+        <source>About ascension card</source>
+        <translation>Sobre la tarjeta ascension</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about BoostCoin card</source>
-        <translation>Mostrar información sobre la tarjeta BoostCoin</translation>
+        <source>Show information about ascension card</source>
+        <translation>Mostrar información sobre la tarjeta ascension</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -672,8 +672,8 @@ Dirección: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BoostCoin address or malformed URI parameters.</source>
-        <translation>URI no se puede analizar! Esto puede ser causado por una dirección de BoostCoin no válida o parámetros de URI malformados.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid ascension address or malformed URI parameters.</source>
+        <translation>URI no se puede analizar! Esto puede ser causado por una dirección de ascension no válida o parámetros de URI malformados.</translation>
     </message>
     <message>
         <location line="+18"/>
@@ -732,8 +732,8 @@ Dirección: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BoostCoin can no longer continue safely and will quit.</source>
-        <translation>Se ha producido un error fatal. BoostCoin ya no puede continuar de forma segura y cerrará.</translation>
+        <source>A fatal error occurred. ascension can no longer continue safely and will quit.</source>
+        <translation>Se ha producido un error fatal. ascension ya no puede continuar de forma segura y cerrará.</translation>
     </message>
 </context>
 <context>
@@ -1066,8 +1066,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BoostCoin address.</source>
-        <translation>La dirección introducida &quot;%1&quot; no es una dirección válida de BoostCoin.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid ascension address.</source>
+        <translation>La dirección introducida &quot;%1&quot; no es una dirección válida de ascension.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1085,8 +1085,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>BoostCoin-Qt</source>
-        <translation>BoostCoin-Qt</translation>
+        <source>ascension-Qt</source>
+        <translation>ascension-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1158,13 +1158,13 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BoostCoin after logging in to the system.</source>
-        <translation>Iniciar BoostCoin automáticamente después de entrar en el sistema.</translation>
+        <source>Automatically start ascension after logging in to the system.</source>
+        <translation>Iniciar ascension automáticamente después de entrar en el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BoostCoin on system login</source>
-        <translation>&amp;Iniciar BoostCoin al inicio del sistema</translation>
+        <source>&amp;Start ascension on system login</source>
+        <translation>&amp;Iniciar ascension al inicio del sistema</translation>
     </message>
     <message>
         <location line="+7"/>
@@ -1183,8 +1183,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BoostCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto de cliente BoostCoin en el router. Esto sólo funciona cuando el router es compatible con UPnP y está habilitado.</translation>
+        <source>Automatically open the ascension client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto de cliente ascension en el router. Esto sólo funciona cuando el router es compatible con UPnP y está habilitado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1193,8 +1193,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BoostCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conéctese a la red de BoostCoin a través de un SOCKS proxy (e.g. cuando se conecta a través de Tor)</translation>
+        <source>Connect to the ascension network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conéctese a la red de ascension a través de un SOCKS proxy (e.g. cuando se conecta a través de Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1268,8 +1268,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BoostCoin.</source>
-        <translation>El idioma del interfaz de usuario se puede configurar aquí. Esta configuración se aplicará después de reiniciar BoostCoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting ascension.</source>
+        <translation>El idioma del interfaz de usuario se puede configurar aquí. Esta configuración se aplicará después de reiniciar ascension.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1283,8 +1283,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BoostCoin addresses in the transaction list or not.</source>
-        <translation>Tanto para mostrar direcciones de BoostCoin en la lista de transacciones o no.</translation>
+        <source>Whether to show ascension addresses in the transaction list or not.</source>
+        <translation>Tanto para mostrar direcciones de ascension en la lista de transacciones o no.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1330,8 +1330,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BoostCoin.</source>
-        <translation>Esta configuración se aplicará después de reiniciar BoostCoin.</translation>
+        <source>This setting will take effect after restarting ascension.</source>
+        <translation>Esta configuración se aplicará después de reiniciar ascension.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1349,8 +1349,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BoostCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar fuera de fecha. Su monedera se sincroniza automáticamente con la red BoostCoin después de que se establece una conexión, pero este proceso no se ha completado todavía.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ascension network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar fuera de fecha. Su monedera se sincroniza automáticamente con la red ascension después de que se establece una conexión, pero este proceso no se ha completado todavía.</translation>
     </message>
     <message>
         <location line="-160"/>
@@ -1565,8 +1565,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BoostCoin-Qt help message to get a list with possible BoostCoin command-line options.</source>
-        <translation>Mostrar el mensaje de ayuda de BoostCoin-Qt para obtener una lista con las posibles opciones de línea de comandos para BoostCoin.</translation>
+        <source>Show the ascension-Qt help message to get a list with possible ascension command-line options.</source>
+        <translation>Mostrar el mensaje de ayuda de ascension-Qt para obtener una lista con las posibles opciones de línea de comandos para ascension.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1585,13 +1585,13 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>BoostCoin - Debug window</source>
-        <translation>BoostCoin - Ventana de depuración</translation>
+        <source>ascension - Debug window</source>
+        <translation>ascension - Ventana de depuración</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>BoostCoin Core</source>
-        <translation>Núcleo BoostCoin</translation>
+        <source>ascension Core</source>
+        <translation>Núcleo ascension</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1600,8 +1600,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BoostCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abre el archivo de registro de BoostCoin del directorio de datos actual. Esto puede tardar algunos segundos para archivos grandes.</translation>
+        <source>Open the ascension debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abre el archivo de registro de ascension del directorio de datos actual. Esto puede tardar algunos segundos para archivos grandes.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1610,8 +1610,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BoostCoin RPC console.</source>
-        <translation>Bienvenido a la consola RPC de BoostCoin</translation>
+        <source>Welcome to the ascension RPC console.</source>
+        <translation>Bienvenido a la consola RPC de ascension</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1684,8 +1684,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BOST</source>
-        <translation>123.456 BOST {0.00 ?}</translation>
+        <source>0.00 ASN</source>
+        <translation>123.456 ASN {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1754,8 +1754,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BOST</source>
-        <translation>123.456 BOST</translation>
+        <source>123.456 ASN</source>
+        <translation>123.456 ASN</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1769,8 +1769,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Introduce una dirección BoostCoin (p.ej. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Introduce una dirección ascension (p.ej. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1869,8 +1869,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid BoostCoin address</source>
-        <translation>ADVERTENCIA: Dirección BoostCoin inválida</translation>
+        <source>WARNING: Invalid ascension address</source>
+        <translation>ADVERTENCIA: Dirección ascension inválida</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1913,8 +1913,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>La dirección a la que se quiere enviar el pago (p.ej. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>The address to send the payment to  (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>La dirección a la que se quiere enviar el pago (p.ej. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1943,8 +1943,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Introduce una dirección BoostCoin (p.ej. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Introduce una dirección ascension (p.ej. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
 </context>
 <context>
@@ -1967,8 +1967,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>La dirección a firmar con un mensaje (p.ej. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>The address to sign the message with (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>La dirección a firmar con un mensaje (p.ej. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -2004,8 +2004,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BoostCoin address</source>
-        <translation>Firma el mensaje para demostrar que posees esta dirección BoostCoin.</translation>
+        <source>Sign the message to prove you own this ascension address</source>
+        <translation>Firma el mensaje para demostrar que posees esta dirección ascension.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2031,13 +2031,13 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>La dirección firmada con un mensaje (p.ej. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>The address the message was signed with (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>La dirección firmada con un mensaje (p.ej. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BoostCoin address</source>
-        <translation>Verifique el mensaje para asegurarse de que se firmó con la dirección BoostCoin especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified ascension address</source>
+        <translation>Verifique el mensaje para asegurarse de que se firmó con la dirección ascension especificada.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2047,8 +2047,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
-        <translation>Introduce una dirección BoostCoin (p.ej BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
+        <source>Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <translation>Introduce una dirección ascension (p.ej ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2057,8 +2057,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BoostCoin signature</source>
-        <translation>Introduce la firma BoostCoin</translation>
+        <source>Enter ascension signature</source>
+        <translation>Introduce la firma ascension</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2628,8 +2628,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>BoostCoin version</source>
-        <translation>versión BoostCoin</translation>
+        <source>ascension version</source>
+        <translation>versión ascension</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2638,8 +2638,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or boostcoind</source>
-        <translation>Envía un comando a -server o boostcoind</translation>
+        <source>Send command to -server or ascensiond</source>
+        <translation>Envía un comando a -server o ascensiond</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2661,13 +2661,13 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: boostcoin.conf)</source>
-        <translation>Especifica un archivo de configuración (por defecto: boostcoin.conf)</translation>
+        <source>Specify configuration file (default: ascension.conf)</source>
+        <translation>Especifica un archivo de configuración (por defecto: ascension.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: boostcoind.pid)</source>
-        <translation>Especifica un archivo pid (por defecto: boostcoind.pid)</translation>
+        <source>Specify pid file (default: ascensiond.pid)</source>
+        <translation>Especifica un archivo pid (por defecto: ascensiond.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2819,8 +2819,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BoostCoin will not work properly.</source>
-        <translation>Advertencia: Verifique que la fecha y hora del equipo sean correctas! Si su reloj es erróneo BoostCoin no funcionará correctamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ascension will not work properly.</source>
+        <translation>Advertencia: Verifique que la fecha y hora del equipo sean correctas! Si su reloj es erróneo ascension no funcionará correctamente.</translation>
     </message>
     <message>
         <location line="-31"/>
@@ -3010,24 +3010,24 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=boostcoinrpc
+rpcuser=ascensionrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BoostCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;ascension Alert&quot; admin@foo.com
 </source>
         <translation>%s, debe establecer un rpcpassword en el fichero de configuración:
 %s
 Se recomienda utilizar la siguiente contraseña aleatoria:
-rpcuser=boostcoinrpc
+rpcuser=ascensionrpc
 rpcpassword=%s
 (no necesita recordar este password)
 El nombre de usuario y contraseña no debe ser el mismo.
 Si no existe el archivo, créelo con permisos de sólo lectura para el dueño.
 También se recomienda establecer alertnotify para ser notificado de los problemas;
-por ejemplo: alertnotify=echo %%s | mail -s &quot;BoostCoin Alert&quot; admin@foo.com
+por ejemplo: alertnotify=echo %%s | mail -s &quot;ascension Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -3159,13 +3159,13 @@ por ejemplo: alertnotify=echo %%s | mail -s &quot;BoostCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  BoostCoin is probably already running.</source>
-        <translation>No se puede obtener un bloqueo en el directorio de datos %s. BoostCoin probablemente ya esté en funcionamiento.</translation>
+        <source>Cannot obtain a lock on data directory %s.  ascension is probably already running.</source>
+        <translation>No se puede obtener un bloqueo en el directorio de datos %s. ascension probablemente ya esté en funcionamiento.</translation>
     </message>
     <message>
         <location line="-98"/>
-        <source>BoostCoin</source>
-        <translation>BoostCoin</translation>
+        <source>ascension</source>
+        <translation>ascension</translation>
     </message>
     <message>
         <location line="+140"/>
@@ -3199,13 +3199,13 @@ por ejemplo: alertnotify=echo %%s | mail -s &quot;BoostCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BoostCoin</source>
-        <translation>Error cargando wallet.dat: El monedero requiere una nueva versión de BoostCoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of ascension</source>
+        <translation>Error cargando wallet.dat: El monedero requiere una nueva versión de ascension</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BoostCoin to complete</source>
-        <translation>El monedero necesita ser reescrito: reinicie BoostCoin para completar</translation>
+        <source>Wallet needed to be rewritten: restart ascension to complete</source>
+        <translation>El monedero necesita ser reescrito: reinicie ascension para completar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3274,8 +3274,8 @@ por ejemplo: alertnotify=echo %%s | mail -s &quot;BoostCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. BoostCoin is probably already running.</source>
-        <translation>No se puede enlazar a %s en este equipo. BoostCoin probablemente ya esté en funcionamiento.</translation>
+        <source>Unable to bind to %s on this computer. ascension is probably already running.</source>
+        <translation>No se puede enlazar a %s en este equipo. ascension probablemente ya esté en funcionamiento.</translation>
     </message>
     <message>
         <location line="-97"/>

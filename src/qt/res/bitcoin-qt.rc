@@ -1,4 +1,4 @@
-IDI_ICON1 ICON DISCARDABLE "icons/boostcoin.ico"
+IDI_ICON1 ICON DISCARDABLE "icons/ascension.ico"
 
 #include <windows.h>             // needed for VERSIONINFO
 #include "../../clientversion.h" // holds the needed client version information
@@ -18,14 +18,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "BoostCoin"
-            VALUE "FileDescription",    "BoostCoin-Qt (OSS GUI client for BoostCoin)"
+            VALUE "CompanyName",        "ascension"
+            VALUE "FileDescription",    "ascension-Qt (OSS GUI client for ascension)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "boostcoin-qt"
-            VALUE "LegalCopyright",     "2014 The BoostCoin developers"
+            VALUE "InternalName",       "ascension-qt"
+            VALUE "LegalCopyright",     "2014 The ascension developers"
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "boostcoin-qt.exe"
-            VALUE "ProductName",        "BoostCoin-Qt"
+            VALUE "OriginalFilename",   "ascension-qt.exe"
+            VALUE "ProductName",        "ascension-Qt"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

@@ -677,7 +677,7 @@ QTabWidget {
           <item>
            <widget class="QLabel" name="labelWalletStatus">
             <property name="toolTip">
-             <string>The displayed information may be out of date. Your wallet automatically synchronizes with the BoostCoin network after a connection is established, but this process has not completed yet.</string>
+             <string>The displayed information may be out of date. Your wallet automatically synchronizes with the ascension network after a connection is established, but this process has not completed yet.</string>
             </property>
             <property name="styleSheet">
              <string notr="true">QLabel { color: red; }</string>
@@ -738,7 +738,7 @@ QTabWidget {
              <string>Your current spendable balance</string>
             </property>
             <property name="text">
-             <string notr="true">0 BOST</string>
+             <string notr="true">0 ASN</string>
             </property>
             <property name="textInteractionFlags">
              <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -767,7 +767,7 @@ QTabWidget {
              <string>Total of coins that was staked, and do not yet count toward the current balance</string>
             </property>
             <property name="text">
-             <string notr="true">0 BOST</string>
+             <string notr="true">0 ASN</string>
             </property>
             <property name="textInteractionFlags">
              <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -796,7 +796,7 @@ QTabWidget {
              <string>Total of transactions that have yet to be confirmed, and do not yet count toward the current balance</string>
             </property>
             <property name="text">
-             <string notr="true">0 BOST</string>
+             <string notr="true">0 ASN</string>
             </property>
             <property name="textInteractionFlags">
              <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -822,7 +822,7 @@ QTabWidget {
              <string>Mined balance that has not yet matured</string>
             </property>
             <property name="text">
-             <string notr="true">0 BOST</string>
+             <string notr="true">0 ASN</string>
             </property>
             <property name="textInteractionFlags">
              <set>Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse</set>
@@ -921,7 +921,7 @@ QTabWidget {
           <item>
            <widget class="QLabel" name="labelTransactionsStatus">
             <property name="toolTip">
-             <string>The displayed information may be out of date. Your wallet automatically synchronizes with the BoostCoin network after a connection is established, but this process has not completed yet.</string>
+             <string>The displayed information may be out of date. Your wallet automatically synchronizes with the ascension network after a connection is established, but this process has not completed yet.</string>
             </property>
             <property name="styleSheet">
              <string notr="true">QLabel { color: red; }</string>

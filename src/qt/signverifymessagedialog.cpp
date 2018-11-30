@@ -24,11 +24,11 @@ SignVerifyMessageDialog::SignVerifyMessageDialog(QWidget *parent) :
 
 #if (QT_VERSION >= 0x040700)
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->addressIn_SM->setPlaceholderText(tr("Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)"));
+    ui->addressIn_SM->setPlaceholderText(tr("Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)"));
     ui->signatureOut_SM->setPlaceholderText(tr("Click \"Sign Message\" to generate signature"));
 
-    ui->addressIn_VM->setPlaceholderText(tr("Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)"));
-    ui->signatureIn_VM->setPlaceholderText(tr("Enter BoostCoin signature"));
+    ui->addressIn_VM->setPlaceholderText(tr("Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)"));
+    ui->signatureIn_VM->setPlaceholderText(tr("Enter ascension signature"));
 #endif
 
     GUIUtil::setupAddressWidget(ui->addressIn_SM, this);

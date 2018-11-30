@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About BoostCoin</source>
+        <source>About ascension</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;BoostCoin&lt;/b&gt; version</source>
+        <source>&lt;b&gt;ascension&lt;/b&gt; version</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The BoostCoin developers</source>
+Copyright © 2014 The ascension developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -66,7 +66,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="-46"/>
-        <source>These are your BoostCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your ascension addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -81,7 +81,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a BoostCoin address</source>
+        <source>Sign a message to prove you own a ascension address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -96,7 +96,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="-14"/>
-        <source>Verify a message to ensure it was signed with a specified BoostCoin address</source>
+        <source>Verify a message to ensure it was signed with a specified ascension address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -264,7 +264,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="-58"/>
-        <source>BoostCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>ascension will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -378,7 +378,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="+6"/>
-        <source>Show information about BoostCoin</source>
+        <source>Show information about ascension</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -428,12 +428,12 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="-64"/>
-        <source>Send coins to a BoostCoin address</source>
+        <source>Send coins to a ascension address</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+47"/>
-        <source>Modify configuration options for BoostCoin</source>
+        <source>Modify configuration options for ascension</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -473,7 +473,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="-202"/>
-        <source>BoostCoin</source>
+        <source>ascension</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -483,7 +483,7 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="+180"/>
-        <source>&amp;About BoostCoin</source>
+        <source>&amp;About ascension</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -540,12 +540,12 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     <message>
         <location line="+0"/>
         <location line="+60"/>
-        <source>BoostCoin client</source>
+        <source>ascension client</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+75"/>
-        <source>%n active connection(s) to BoostCoin network</source>
+        <source>%n active connection(s) to ascension network</source>
         <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
@@ -585,12 +585,12 @@ Eric Young (eay@cryptsoft.com) y UPnP software escrito por Thomas Bernard.</tran
     </message>
     <message>
         <location line="-312"/>
-        <source>About BoostCoin card</source>
+        <source>About ascension card</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about BoostCoin card</source>
+        <source>Show information about ascension card</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -669,7 +669,7 @@ Dirección: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid BoostCoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid ascension address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -729,7 +729,7 @@ Dirección: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+109"/>
-        <source>A fatal error occurred. BoostCoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. ascension can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1049,7 +1049,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid BoostCoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid ascension address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1068,7 +1068,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+420"/>
         <location line="+12"/>
-        <source>BoostCoin-Qt</source>
+        <source>ascension-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1141,12 +1141,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start BoostCoin after logging in to the system.</source>
+        <source>Automatically start ascension after logging in to the system.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start BoostCoin on system login</source>
+        <source>&amp;Start ascension on system login</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1166,7 +1166,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the BoostCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the ascension client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1176,7 +1176,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the BoostCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the ascension network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1251,7 +1251,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting BoostCoin.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting ascension.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1266,7 +1266,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show BoostCoin addresses in the transaction list or not.</source>
+        <source>Whether to show ascension addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1313,7 +1313,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting BoostCoin.</source>
+        <source>This setting will take effect after restarting ascension.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1332,7 +1332,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+33"/>
         <location line="+231"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the BoostCoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ascension network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1548,7 +1548,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the BoostCoin-Qt help message to get a list with possible BoostCoin command-line options.</source>
+        <source>Show the ascension-Qt help message to get a list with possible ascension command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1568,12 +1568,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>BoostCoin - Debug window</source>
+        <source>ascension - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>BoostCoin Core</source>
+        <source>ascension Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1583,7 +1583,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the BoostCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the ascension debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1593,7 +1593,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-33"/>
-        <source>Welcome to the BoostCoin RPC console.</source>
+        <source>Welcome to the ascension RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1667,7 +1667,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 BOST</source>
+        <source>0.00 ASN</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1737,7 +1737,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 BOST</source>
+        <source>123.456 ASN</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1752,7 +1752,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <source>Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1852,7 +1852,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+251"/>
-        <source>WARNING: Invalid BoostCoin address</source>
+        <source>WARNING: Invalid ascension address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1896,7 +1896,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to send the payment to  (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <source>The address to send the payment to  (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1926,7 +1926,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <source>Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1950,7 +1950,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <source>The address to sign the message with (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1987,7 +1987,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this BoostCoin address</source>
+        <source>Sign the message to prove you own this ascension address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2014,12 +2014,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <source>The address the message was signed with (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified BoostCoin address</source>
+        <source>Verify the message to ensure it was signed with the specified ascension address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2030,7 +2030,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a BoostCoin address (e.g. BOST1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
+        <source>Enter a ascension address (e.g. ASN1xGeKnTkaAotEVgs2rnUfVsFv8LVSM)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2040,7 +2040,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter BoostCoin signature</source>
+        <source>Enter ascension signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2611,7 +2611,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+33"/>
-        <source>BoostCoin version</source>
+        <source>ascension version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2621,7 +2621,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or boostcoind</source>
+        <source>Send command to -server or ascensiond</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2644,12 +2644,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: boostcoin.conf)</source>
+        <source>Specify configuration file (default: ascension.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: boostcoind.pid)</source>
+        <source>Specify pid file (default: ascensiond.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2803,7 +2803,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+61"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong BoostCoin will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ascension will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2995,13 +2995,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
  %s
 It is recommended you use the following random password:
-rpcuser=boostcoinrpc
+rpcuser=ascensionrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;BoostCoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;ascension Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -3135,12 +3135,12 @@ for example: alertnotify=echo %%s | mail -s &quot;BoostCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+1"/>
-        <source>Cannot obtain a lock on data directory %s.  BoostCoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s.  ascension is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="-98"/>
-        <source>BoostCoin</source>
+        <source>ascension</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3176,12 +3176,12 @@ for example: alertnotify=echo %%s | mail -s &quot;BoostCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of BoostCoin</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of ascension</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart BoostCoin to complete</source>
+        <source>Wallet needed to be rewritten: restart ascension to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3251,7 +3251,7 @@ for example: alertnotify=echo %%s | mail -s &quot;BoostCoin Alert&quot; admin@fo
     </message>
     <message>
         <location line="+122"/>
-        <source>Unable to bind to %s on this computer. BoostCoin is probably already running.</source>
+        <source>Unable to bind to %s on this computer. ascension is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
