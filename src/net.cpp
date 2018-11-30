@@ -1177,11 +1177,11 @@ void MapPort()
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-    {"seed1.ascension.eu", "seed1.ascension.eu"},
-    {"seed2.ascension.eu", "seed2.ascension.eu"},
-    {"seed3.ascension.eu", "seed3.ascension.eu"},
-    {"seed4.ascension.eu", "seed4.ascension.eu"},
-    {"seed5.ascension.eu", "seed5.ascension.eu"},	
+    {"seed1.ascensioncoin.org", "seed1.ascensioncoin.org"},
+    {"seed2.ascensioncoin.org", "seed2.ascensioncoin.org"},
+    {"seed3.ascensioncoin.org", "seed3.ascensioncoin.org"},
+    {"asn4.mooo.com", "asn4.mooo.com"},
+    {"asn5.mooo.com", "asn5.mooo.com"},
 };
 // hidden service seeds
 static const char *strMainNetOnionSeed[][1] = {

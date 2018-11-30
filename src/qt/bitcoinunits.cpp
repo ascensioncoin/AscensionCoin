@@ -45,9 +45,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("B")+("o")+("o")+("s")+("t")+("C")+("o")+("i")+("n") +("s");
-    case mBTC: return QString("Milli-") + ("B")+("o")+("o")+("s")+("t") + ("1 / 1,000)");
-    case uBTC: return QString("Micro-") + ("B")+("o")+("o")+("s")+("t") + ("1 / 1,000,000)");
+    case BTC: return QString("ascension");
+    case mBTC: return QString("Milli-ascension (1 / 1,000)");
+    case uBTC: return QString("Micro-ascension (1 / 1,000,000)");
     default: return QString("???");
     }
 }

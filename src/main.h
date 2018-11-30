@@ -27,7 +27,7 @@ class CInv;
 class CRequestTracker;
 class CNode;
 
-static const int LAST_POW_BLOCK = 43200; // at 60 second blocks will be about 30 days from launch
+static const int LAST_POW_BLOCK = 8500;
 
 static const unsigned int MAX_BLOCK_SIZE = 1000000;
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2;
@@ -36,13 +36,12 @@ static const unsigned int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100;
 static const unsigned int MAX_INV_SZ = 50000;
 static const int64_t MIN_TX_FEE = 10000;
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
-static const int64_t MAX_MONEY = 40000000 * COIN;
-static const int64 MIN_TXOUT_AMOUNT = MIN_TX_FEE;
-static const int64_t COIN_YEAR_REWARD = 1 * CENT; // 1% per year
-static const int64_t MAX_MINT_PROOF_OF_STAKE = 0.1 * COIN;	// 10% annual interest
+static const int64_t MAX_MONEY = 80000000 * COIN;
+static const int64_t MAX_MINT_PROOF_OF_STAKE = 0.20 * COIN;	// 20% annual interest
+static const int64_t COIN_YEAR_REWARD = 10 * CENT; //(output to console will be updated)
 
-#define FOUNDATION "BKqAh5ojyS7bkjaDHJEWXxMwKNUvUsNZak"
-#define FOUNDATION_TEST "n1EexFn39nDYemEhykVyWvCxoBbhm6Sr47"
+#define FOUNDATION "0x"
+#define FOUNDATION_TEST "0x"
 
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
 // Threshold for nLockTime: below this value it is interpreted as block number, otherwise as UNIX timestamp.
@@ -54,22 +53,21 @@ static const int fHaveUPnP = true;
 static const int fHaveUPnP = false;
 #endif
 
-
 inline int64_t PastDrift(int64_t nTime)   {
     if (nTime < 4579862332){
-        return nTime - 24 * 60 * 60;
+        return nTime - 4 * 60 * 60;
         }
     else {
-        return nTime - 60 * 60;
+        return nTime - 4 * 60 * 60;
         }
 }
 
 inline int64_t FutureDrift(int64_t nTime) {
     if (nTime < 4579862332){
-        return nTime + 24 * 60 * 60;
+        return nTime + 4 * 60 * 60;
         }
     else {
-        return nTime + 60 * 60;
+        return nTime + 4 * 60 * 60;
         }
 }
 
@@ -922,7 +920,7 @@ public:
 
     uint256 GetHash() const
     {
-        return Hash9(BEGIN(nVersion), END(nNonce));
+        return HashBlocks(BEGIN(nVersion), END(nNonce));
     }
 
     int64_t GetBlockTime() const

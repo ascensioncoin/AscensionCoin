@@ -243,7 +243,7 @@ std::string HelpMessage()
         "  -proxy=<ip:port>       " + _("Connect through socks proxy") + "\n" +
         "  -socks=<n>             " + _("Select the version of socks proxy to use (4-5, default: 5)") + "\n" +
         "  -dns                   " + _("Allow DNS lookups for -addnode, -seednode and -connect") + "\n" +
-        "  -port=<port>           " + _("Listen for connections on <port> (default: 9697 or testnet: 19697)") + "\n" +
+        "  -port=<port>           " + _("Listen for connections on <port> (default: 6224 or testnet: 16224)") + "\n" +
         "  -maxconnections=<n>    " + _("Maintain at most <n> connections to peers (default: 125)") + "\n" +
         "  -addnode=<ip>          " + _("Add a node to connect to and attempt to keep the connection open") + "\n" +
         "  -connect=<ip>          " + _("Connect only to the specified node(s)") + "\n" +
@@ -290,7 +290,7 @@ std::string HelpMessage()
 #endif
         "  -rpcuser=<user>        " + _("Username for JSON-RPC connections") + "\n" +
         "  -rpcpassword=<pw>      " + _("Password for JSON-RPC connections") + "\n" +
-        "  -rpcport=<port>        " + _("Listen for JSON-RPC connections on <port> (default: 9698 or testnet: 19698)") + "\n" +
+        "  -rpcport=<port>        " + _("Listen for JSON-RPC connections on <port> (default: 6225 or testnet: 16225)") + "\n" +
         "  -rpcallowip=<ip>       " + _("Allow JSON-RPC connections from specified IP address") + "\n" +
         "  -rpcconnect=<ip>       " + _("Send commands to node running on <ip> (default: 127.0.0.1)") + "\n" +
         "  -blocknotify=<cmd>     " + _("Execute command when the best block changes (%s in cmd is replaced by block hash)") + "\n" +

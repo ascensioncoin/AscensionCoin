@@ -7,7 +7,6 @@
 
 #include "checkpoints.h"
 #include "genesis.h"
-
 #include "txdb.h"
 #include "main.h"
 #include "uint256.h"
@@ -25,18 +24,14 @@ namespace Checkpoints
     //
     static MapCheckpoints mapCheckpoints =
         boost::assign::map_list_of
-        ( 0, hashGenesisBlock )
-        ( 100, CheckBlock1 )
-        ( 1000, CheckBlock2 )
-        ( 5002, CheckBlock3 )
-        ( 10000, CheckBlock4 )
-        ( 15001, CheckBlock5 )
-        ( 25002, CheckBlock6 )
-        ( 30001, CheckBlock7 )
-        ( 140000, CheckBlock8 )
-        ( 156000, CheckBlock9 )
-		( 306500, CheckBlock10 )
-        ( 489550, CheckBlock11 )
+            ( 0, hashGenesisBlock )
+            ( 70, fCheckPoint1)
+            ( 8300, fCheckPoint2 )
+            ( 12000, fCheckPoint3 )
+            ( 20000, fCheckPoint4 )//last block of v1/v2 blockchain
+            ( 20001, fCheckPoint5 )//first block of v3 blockchain
+            ( 30000, fCheckPoint6 )//block 30,000
+
     ;
 
     // TestNet has no checkpoints
@@ -359,7 +354,7 @@ namespace Checkpoints
 }
 
 // ascension: sync-checkpoint master key
-const std::string CSyncCheckpoint::strMasterPubKey = "04b7640b474644ccc5f5ca40ae97f06261e4650ef2f59f38e03cc48e02f16a1b0ce6bb45798e335c84311919c934d0f7866594a249a83be71405e63783ad9d1b12";
+const std::string CSyncCheckpoint::strMasterPubKey = "04592d0b2ae53f31db4b34da1907a4c1dcc11dc5d23c2f4f5814e4d2d56f81f5b4d9c0f61a82b4767ea54d87d4d4699e7bdcfaabef2704418a1c2e3b19e21cfc80";
 
 std::string CSyncCheckpoint::strMasterPrivKey = "";
 

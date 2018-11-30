@@ -37,20 +37,20 @@ set<pair<COutPoint, unsigned int> > setStakeSeen;
 
 CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // PoW starting difficulty = 0.0002441
 CBigNum bnProofOfStakeLimit(~uint256(0) >> 20);//  PoS starting difficulty = 0.0002441
-CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16); // PoW starting difficulty on Testnet
+CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 20); // PoW starting difficulty on Testnet
 CBigNum bnProofOfWorkFirstBlock(~uint256(0) >> 30);
 
-unsigned int nTargetSpacing = 1 * 60; // 60 seconds
+unsigned int nTargetSpacing = 2 * 60; // 120 seconds
 unsigned int nRetarget = 30;
-unsigned int nStakeMinAge = 24 * 60 * 60; // 1 day
-unsigned int nStakeMaxAge = -1;           //unlimited
+unsigned int nStakeMinAge = 12 * 60 * 60; // 12 hours
+unsigned int nStakeMaxAge = -1;           // unlimited
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
-static const int64_t nTargetTimespan_legacy = nTargetSpacing * nRetarget; // every 30 blocks
-static const int64_t nInterval = nTargetTimespan_legacy / nTargetSpacing;
+static const int64_t nTargetTimespan_legacy = nTargetSpacing * nRetarget; // nTargetTimespan_legacy = 3600
+static const int64_t nInterval = nTargetTimespan_legacy / nTargetSpacing; // nInterval = 30
 
-static const int64_t nTargetTimespan = 16 * 60;
+static const int64_t nTargetTimespan = 16 * 60; // nTargetTimespan = 960
 
-int64_t devCoin = 15 * COIN;
+int64_t devCoin = 0 * COIN;
 int nCoinbaseMaturity = 100;
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -972,31 +972,34 @@ uint256 WantedByOrphan(const CBlock* pblockOrphan)
 // miner's coin base reward
 int64_t GetProofOfWorkReward(int64_t nFees)
 {
-    if (pindexBest->nHeight == 1)
-      {
-        int64_t nSubsidy = 400000 * COIN;
+    if (pindexBest->nHeight == 1){
+        int64_t nSubsidy = 225000 * COIN;
         if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfWorkReward() : create=%s nSubsidy=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
         return nSubsidy + nFees;
-      }
-    else
-    {
-        int64_t nSubsidy = 515 * COIN;
+
+    } else if (pindexBest->nHeight > 1 && pindexBest->nHeight <= 101){
+        int64_t nSubsidy = 0 * COIN;
+        if (fDebug && GetBoolArg("-printcreation"))
+        printf("GetProofOfWorkReward() : create=%s nSubsidy=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
+        return nSubsidy + nFees;
+    } else {
+
+        int64_t nSubsidy = pindexBest->nHeight * COIN;
         if (fDebug && GetBoolArg("-printcreation"))
         printf("GetProofOfWorkReward() : create=%s nSubsidy=%"PRId64"\n", FormatMoney(nSubsidy).c_str(), nSubsidy);
         return nSubsidy + nFees;
     }
+
 }
 
-const int DAILY_BLOCKCOUNT =  1440;
 // miner's coin stake reward based on coin age spent (coin-days)
 int64_t GetProofOfStakeReward(int64_t nCoinAge, int64_t nFees)
 {
     int64_t nRewardCoinYear;
-
     nRewardCoinYear = MAX_MINT_PROOF_OF_STAKE;
 
-    int64_t nSubsidy = nCoinAge * nRewardCoinYear / 365 / COIN;
+    int64_t nSubsidy = nCoinAge * nRewardCoinYear / 365;
 
 
     if (fDebug && GetBoolArg("-printcreation"))
@@ -1068,7 +1071,7 @@ unsigned int static GetNextWorkRequired_legacy(const CBlockIndex* pindexLast)
         return pindexLast->nBits;
     }
 
-    // Genesiscoin: This fixes an issue where a 51% attack can change difficulty at will.
+    // This fixes an issue where a 51% attack can change difficulty at will.
     // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
     int blockstogoback = nInterval-1;
     if ((pindexLast->nHeight+1) != nInterval)
@@ -1104,7 +1107,7 @@ unsigned int static GetNextWorkRequired_legacy(const CBlockIndex* pindexLast)
     return bnNew.GetCompact();
 }
 
-static unsigned int GetNextTargetRequired_(const CBlockIndex* pindexLast, bool fProofOfStake)
+static unsigned int GetNextTargetRequired_DGW(const CBlockIndex* pindexLast, bool fProofOfStake)
 {
     CBigNum bnTargetLimit = fProofOfStake ? bnProofOfStakeLimit : bnProofOfWorkLimit;
 
@@ -1141,11 +1144,11 @@ unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfS
 {
     int change;
     if(fTestNet)
-        change = 20;
+        change = 50;
     else
-        change = 250;
+        change = 50;
     if(pindexLast->nHeight + 1 > change)
-        return GetNextTargetRequired_(pindexLast, fProofOfStake);
+        return GetNextTargetRequired_DGW(pindexLast, fProofOfStake);
     else
         return GetNextWorkRequired_legacy(pindexLast);
 }
@@ -1645,16 +1648,7 @@ bool CBlock::ConnectBlock(CTxDB& txdb, CBlockIndex* pindex, bool fJustCheck)
                    nReward));
     }
 
-    if(IsProofOfWork())
-    {
-        CBitcoinAddress address(!fTestNet ? FOUNDATION : FOUNDATION_TEST);
-        CScript scriptPubKey;
-        scriptPubKey.SetDestination(address.Get());
-        if (vtx[0].vout[1].scriptPubKey != scriptPubKey)
-            return error("ConnectBlock() : coinbase does not pay to the dev address)");
-        if (vtx[0].vout[1].nValue < devCoin)
-            return error("ConnectBlock() : coinbase does not pay enough to dev addresss");
-    }
+
 
     if (IsProofOfStake())
     {
@@ -1984,7 +1978,8 @@ bool CTransaction::GetCoinAge(CTxDB& txdb, uint64_t& nCoinAge) const
             printf("coin age nValueIn=%"PRId64" nTimeDiff=%d bnCentSecond=%s\n", nValueIn, nTime - txPrev.nTime, bnCentSecond.ToString().c_str());
     }
 
-    CBigNum bnCoinDay = bnCentSecond * CENT / (24 * 60 * 60);
+    CBigNum bnCoinDay = bnCentSecond * CENT / COIN / (24 * 60 * 60);
+
     if (fDebug && GetBoolArg("-printcoinage"))
         printf("coin age bnCoinDay=%s\n", bnCoinDay.ToString().c_str());
     nCoinAge = bnCoinDay.getuint64();
@@ -2544,7 +2539,7 @@ bool LoadBlockIndex(bool fAllowNew)
         pchMessageStart[2] = 0x22;
         pchMessageStart[3] = 0x05;
 
-        bnTrustedModulus.SetHex("f0d14cf72623dacfe738d0892b599be0f31052239cddd95a3f25101c801dc990453b38c9434efe3f372db39a32c2bb44cbaea72d62c8931fa785b0ec44531308df3e46069be5573e49bb29f4d479bfc3d162f57a5965db03810be7636da265bfced9c01a6b0296c77910ebdc8016f70174f0f18a57b3b971ac43a934c6aedbc5c866764a3622b5b7e3f9832b8b3f133c849dbcc0396588abcd1e41048555746e4823fb8aba5b3d23692c6857fccce733d6bb6ec1d5ea0afafecea14a0f6f798b6b27f77dc989c557795cc39a0940ef6bb29a7fc84135193a55bcfc2f01dd73efad1b69f45a55198bd0e6bef4d338e452f6a420f1ae2b1167b923f76633ab6e55");
+        bnTrustedModulus.SetHex("a8852ebf7c49f01cd196e35394f3b74dd86283a07f57e0a262928e7493d4a3961d93d93c90ea3369719641d626d28b9cddc6d9307b9aabdbffc40b6d6da2e329d079b4187ff784b2893d9f53e9ab913a04ff02668114695b07d8ce877c4c8cac1b12b9beff3c51294ebe349eca41c24cd32a6d09dd1579d3947e5c4dcc30b2090b0454edb98c6336e7571db09e0fdafbd68d8f0470223836e90666a5b143b73b9cd71547c917bf24c0efc86af2eba046ed781d9acb05c80f007ef5a0a5dfca23236f37e698e8728def12554bc80f294f71c040a88eff144d130b24211016a97ce0f5fe520f477e555c9997683d762aff8bd1402ae6938dd5c994780b1bf6aa7239e9d8101630ecfeaa730d2bbc97d39beb057f016db2e28bf12fab4989c0170c2593383fd04660b5229adcd8486ba78f6cc1b558bcd92f344100dff239a8c00dbc4c2825277f241691dbe4a7d9bd503abb9");
         bnProofOfWorkLimit = bnProofOfWorkLimitTestNet; // 16 bits PoW target limit for testnet
         nStakeMinAge = 15 * 60; // test net min age is 1 hour
         nCoinbaseMaturity = 10; // test maturity is 10 blocks
@@ -2552,7 +2547,7 @@ bool LoadBlockIndex(bool fAllowNew)
     }
     else
     {
-        bnTrustedModulus.SetHex("d01f952e1090a5a72a3eda261083256596ccc192935ae1454c2bafd03b09e6ed11811be9f3a69f5783bbbced8c6a0c56621f42c2d19087416facf2f13cc7ed7159d1c5253119612b8449f0c7f54248e382d30ecab1928dbf075c5425dcaee1a819aa13550e0f3227b8c685b14e0eae094d65d8a610a6f49fff8145259d1187e4c6a472fa5868b2b67f957cb74b787f4311dbc13c97a2ca13acdb876ff506ebecbb904548c267d68868e07a32cd9ed461fbc2f920e9940e7788fed2e4817f274df5839c2196c80abe5c486df39795186d7bc86314ae1e8342f3c884b158b4b05b4302754bf351477d35370bad6639b2195d30006b77bf3dbb28b848fd9ecff5662bf39dde0c974e83af51b0d3d642d43834827b8c3b189065514636b8f2a59c42ba9b4fc4975d4827a5d89617a3873e4b377b4d559ad165748632bd928439cfbc5a8ef49bc2220e0b15fb0aa302367d5e99e379a961c1bc8cf89825da5525e3c8f14d7d8acca2fa9c133a2176ae69874d8b1d38b26b9c694e211018005a97b40848681b9dd38feb2de141626fb82591aad20dc629b2b6421cef1227809551a0e4e943ab99841939877f18f2d9c0addc93cf672e26b02ed94da3e6d329e8ac8f3736eebbf37bb1a21e5aadf04ee8e3b542f876aa88b2adf2608bd86329b7f7a56fd0dc1c40b48188731d11082aea360c62a0840c2db3dad7178fd7e359317ae081");
+        bnTrustedModulus.SetHex("a8852ebf7c49f01cd196e35394f3b74dd86283a07f57e0a262928e7493d4a3961d93d93c90ea3369719641d626d28b9cddc6d9307b9aabdbffc40b6d6da2e329d079b4187ff784b2893d9f53e9ab913a04ff02668114695b07d8ce877c4c8cac1b12b9beff3c51294ebe349eca41c24cd32a6d09dd1579d3947e5c4dcc30b2090b0454edb98c6336e7571db09e0fdafbd68d8f0470223836e90666a5b143b73b9cd71547c917bf24c0efc86af2eba046ed781d9acb05c80f007ef5a0a5dfca23236f37e698e8728def12554bc80f294f71c040a88eff144d130b24211016a97ce0f5fe520f477e555c9997683d762aff8bd1402ae6938dd5c994780b1bf6aa7239e9d8101630ecfeaa730d2bbc97d39beb057f016db2e28bf12fab4989c0170c2593383fd04660b5229adcd8486ba78f6cc1b558bcd92f344100dff239a8c00dbc4c2825277f241691dbe4a7d9bd503abb9");
     }
 
 #if 0
@@ -2575,9 +2570,9 @@ bool LoadBlockIndex(bool fAllowNew)
         if (!fAllowNew)
             return false;
 
-        const char* pszTimestamp = "x13 ascension to Mars!... Again!";
+        const char* pszTimestamp = "Bill Gates is named world's richest person again";
         CTransaction txNew;
-        txNew.nTime = 1400512373;
+        txNew.nTime = 1425330714;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -2587,12 +2582,12 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1400512373;
+        block.nTime    = 1425330714;
         block.nBits    = bnProofOfWorkLimit.GetCompact();
-        block.nNonce   = 5726282;
+        block.nNonce   = 727907;
         if(fTestNet)
         {
-            block.nNonce   = 1908795;
+            block.nNonce   = 727907;
         }
         if (true  && (block.GetHash() != hashGenesisBlock)) {
 
@@ -2616,7 +2611,7 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("block.nNonce = %u \n", block.nNonce);
 
         //// debug print
-        assert(block.hashMerkleRoot == uint256("603add6547a4c67f12f5a5fb5100fb455e3515b05e58a44a29a4496f7fcaaaf7"));
+        assert(block.hashMerkleRoot == uint256("b7da2e76ea29b3b4aa94f645d601b18656f657681e8fe261fbcebe03bf6d9082"));
         block.print();
         assert(block.GetHash() == (!fTestNet ? hashGenesisBlock : hashGenesisBlockTestNet));
         assert(block.CheckBlock());
@@ -2885,7 +2880,7 @@ bool static AlreadyHave(CTxDB& txdb, const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
-unsigned char pchMessageStart[4] = { 0x70, 0x35, 0x22, 0x05 };
+unsigned char pchMessageStart[4] = { 0x2d, 0x3f, 0xa2, 0xf5 };
 
 bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
 {
@@ -2926,8 +2921,18 @@ bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
             pfrom->nVersion = 300;
         if (!vRecv.empty())
             vRecv >> addrFrom >> nNonce;
+
         if (!vRecv.empty())
+        {
             vRecv >> pfrom->strSubVer;
+            if ((pfrom->strSubVer == "/ascension:2.0.0/") || (pfrom->strSubVer == "/ascension:2.0.1/"))
+            {
+                printf("partner %s using obsolete version %s; disconnecting\n", pfrom->addr.ToString().c_str(), pfrom->strSubVer.c_str());
+                pfrom->fDisconnect = true;
+                return false;
+            }
+        }
+
         if (!vRecv.empty())
             vRecv >> pfrom->nStartingHeight;
 
