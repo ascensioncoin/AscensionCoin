@@ -1,21 +1,14 @@
-# x13 version by Mammix2
+# QuBit version additions by Mammix2
+# QuBit (in order: luffa, cubehash, shavite, simd, echo)
 
 TEMPLATE = app
-DEFINES += FN1 FN2
-FN1 = ascension
-FN2 = -qt
-VERSION = 3.6.0.0
-TARGET = $$FN1$$FN2
+TARGET = ascension-qt
+VERSION = 3.0.1.0
 INCLUDEPATH += src src/json \
-    src/qt \
-    src/tor \
-    src/qt/plugins/mrichtexteditor \
-    src/xxhash \
-    src/lz4
-QT += core gui network
+    src/qt 
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
 CONFIG += no_include_pwd
-CONFIG += thread
+CONFIG += thread static
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 lessThan(QT_MAJOR_VERSION, 5): CONFIG += static
 QMAKE_CXXFLAGS = -fpermissive
@@ -148,102 +141,19 @@ LIBS += $$PWD/src/leveldb/libleveldb.a $$PWD/src/leveldb/libmemenv.a
 
 ##hashing sources
 SOURCES += \
-    src/aes_helper.c \
-    src/blake.c \
-    src/bmw.c \
-    src/cubehash.c \
-    src/echo.c \
-    src/groestl.c \
-    src/jh.c \
-    src/keccak.c \
-    src/luffa.c \
-    src/shavite.c \
-    src/simd.c \
-    src/skein.c \
-    src/fugue.c \
-    src/hamsi.c 
+	src/luffa.c \
+	src/cubehash.c \
+	src/shavite.c \
+	src/simd.c \
+	src/echo.c
 
-SOURCES +=     src/tor/address.c \
-    src/tor/addressmap.c \
-    src/tor/aes.c \
-    src/tor/backtrace.c \
-    src/tor/buffers.c \
-    src/tor/channel.c \
-    src/tor/channeltls.c \
-    src/tor/circpathbias.c \
-    src/tor/circuitbuild.c \
-    src/tor/circuitlist.c \
-    src/tor/circuitmux.c \
-    src/tor/circuitmux_ewma.c \
-    src/tor/circuitstats.c \
-    src/tor/circuituse.c \
-    src/tor/command.c \
-    src/tor/compat.c \
-    src/tor/compat_libevent.c \
-    src/tor/config.c \
-    src/tor/config_codedigest.c \
-    src/tor/confparse.c \
-    src/tor/connection.c \
-    src/tor/connection_edge.c \
-    src/tor/connection_or.c \
-    src/tor/container.c \
-    src/tor/control.c \
-    src/tor/cpuworker.c \
-    src/tor/crypto.c \
-    src/tor/crypto_curve25519.c \
-    src/tor/crypto_format.c \
-    src/tor/curve25519-donna.c \
-    src/tor/di_ops.c \
-    src/tor/directory.c \
-    src/tor/dirserv.c \
-    src/tor/dirvote.c \
-    src/tor/dns.c \
-    src/tor/dnsserv.c \
-    src/tor/entrynodes.c \
-    src/tor/ext_orport.c \
-    src/tor/fp_pair.c \
-    src/tor/geoip.c \
-    src/tor/hibernate.c \
-    src/tor/log.c \
-    src/tor/memarea.c \
-    src/tor/mempool.c \
-    src/tor/microdesc.c \
-    src/tor/networkstatus.c \
-    src/tor/nodelist.c \
-    src/tor/onion.c \
-    src/tor/onion_fast.c \
-    src/tor/onion_main.c \
-    src/tor/onion_ntor.c \
-    src/tor/onion_tap.c \
-    src/tor/policies.c \
-    src/tor/anonymize.cpp \
-    src/tor/procmon.c \
-    src/tor/reasons.c \
-    src/tor/relay.c \
-    src/tor/rendclient.c \
-    src/tor/rendcommon.c \
-    src/tor/rendmid.c \
-    src/tor/rendservice.c \
-    src/tor/rephist.c \
-    src/tor/replaycache.c \
-    src/tor/router.c \
-    src/tor/routerlist.c \
-    src/tor/routerparse.c \
-    src/tor/routerset.c \
-    src/tor/sandbox.c \
-    src/tor/statefile.c \
-    src/tor/status.c \
-    src/tor/strlcat.c \
-    src/tor/strlcpy.c \
-    src/tor/tor_util.c \
-    src/tor/torgzip.c \
-    src/tor/tortls.c \
-    src/tor/transports.c \
-    src/tor/util_codedigest.c
-
-##encryption + compression sources
-SOURCES +=  src/lz4/lz4.c \
-    src/xxhash/xxhash.c
+##hashing headers
+HEADERS += \
+        src/sph_cubehash.h \
+        src/sph_echo.h \
+        src/sph_shavite.h \
+        src/sph_simd.h \
+        src/sph_types.h
 
 NO_LEVELDB=1
 !contains(NO_LEVELDB, 1) {
@@ -312,6 +222,7 @@ HEADERS += src/qt/bitcoingui.h \
     src/qt/aboutdialog.h \
     src/qt/editaddressdialog.h \
     src/qt/bitcoinaddressvalidator.h \
+    src/qt/statisticspage.h \
     src/alert.h \
     src/addrman.h \
     src/base58.h \
@@ -378,8 +289,6 @@ HEADERS += src/qt/bitcoingui.h \
     src/allocators.h \
     src/ui_interface.h \
     src/qt/rpcconsole.h \
-    src/qt/plugins/mrichtexteditor/mrichtextedit.h \
-    src/qt/qvalidatedtextedit.h \
     src/version.h \
     src/netbase.h \
     src/clientversion.h \
@@ -388,99 +297,82 @@ HEADERS += src/qt/bitcoingui.h \
     src/hash.h \
     src/hashblock.h \
     src/limitedmap.h \
-    src/sph_blake.h \
-    src/sph_bmw.h \
-    src/sph_cubehash.h \
-    src/sph_echo.h \
-    src/sph_groestl.h \
-    src/sph_jh.h \
-    src/sph_keccak.h \
-    src/sph_luffa.h \
-    src/sph_shavite.h \
-    src/sph_simd.h \
-    src/sph_skein.h \
-    src/sph_fugue.h \
-    src/sph_hamsi.h \
-    src/sph_types.h \
     src/threadsafety.h \
-    src/txdb-leveldb.h 
+    src/txdb-leveldb.h
 
 SOURCES += src/qt/bitcoin.cpp \
-    src/qt/bitcoingui.cpp \
-    src/qt/transactiontablemodel.cpp \
-    src/qt/addresstablemodel.cpp \
-    src/qt/optionsdialog.cpp \
-    src/qt/sendcoinsdialog.cpp \
-    src/qt/coincontroldialog.cpp \
-    src/qt/coincontroltreewidget.cpp \
-    src/qt/addressbookpage.cpp \
-    src/qt/signverifymessagedialog.cpp \
-    src/qt/aboutdialog.cpp \
-    src/qt/editaddressdialog.cpp \
-    src/qt/bitcoinaddressvalidator.cpp \
-    src/qt/qvalidatedtextedit.cpp \
-    src/qt/plugins/mrichtexteditor/mrichtextedit.cpp \
-    src/alert.cpp \
-    src/version.cpp \
-    src/sync.cpp \
-    src/util.cpp \
-    src/netbase.cpp \
-    src/key.cpp \
-    src/script.cpp \
-    src/main.cpp \
-    src/miner.cpp \
-    src/init.cpp \
-    src/net.cpp \
-    src/irc.cpp \
-    src/checkpoints.cpp \
-    src/addrman.cpp \
-    src/db.cpp \
-    src/walletdb.cpp \
-    src/qt/clientmodel.cpp \
-    src/qt/guiutil.cpp \
-    src/qt/transactionrecord.cpp \
-    src/qt/optionsmodel.cpp \
-    src/qt/monitoreddatamapper.cpp \
-    src/qt/transactiondesc.cpp \
-    src/qt/transactiondescdialog.cpp \
-    src/qt/bitcoinstrings.cpp \
-    src/qt/bitcoinamountfield.cpp \
-    src/wallet.cpp \
-    src/keystore.cpp \
-    src/qt/transactionfilterproxy.cpp \
-    src/qt/transactionview.cpp \
-    src/qt/walletmodel.cpp \
-    src/bitcoinrpc.cpp \
-    src/rpcdump.cpp \
-    src/rpcnet.cpp \
-    src/rpcmining.cpp \
-    src/rpcwallet.cpp \
-    src/rpcblockchain.cpp \
-    src/rpcrawtransaction.cpp \
-    src/qt/overviewpage.cpp \
-    src/qt/csvmodelwriter.cpp \
-    src/crypter.cpp \
-    src/qt/sendcoinsentry.cpp \
-    src/qt/qvalidatedlineedit.cpp \
-    src/qt/bitcoinunits.cpp \
-    src/qt/qvaluecombobox.cpp \
-    src/protocol.cpp \
-    src/qt/notificator.cpp \
-    src/qt/qtipcserver.cpp \
-    src/qt/rpcconsole.cpp \
-    src/qt/askpassphrasedialog.cpp \
-    src/noui.cpp \
-    src/kernel.cpp \
-    src/scrypt-arm.S \
-    src/scrypt-x86.S \
-    src/scrypt-x86_64.S \
-    src/scrypt.cpp \
-    src/pbkdf2.cpp \
-    src/txdb-leveldb.cpp \
-    src/json/json_spirit_reader.cpp \
-    src/json/json_spirit_writer.cpp \
-    src/bloom.cpp \
-    src/hash.cpp
+	src/qt/bitcoingui.cpp \
+	src/qt/transactiontablemodel.cpp \
+	src/qt/addresstablemodel.cpp \
+	src/qt/optionsdialog.cpp \
+	src/qt/sendcoinsdialog.cpp \
+	src/qt/coincontroldialog.cpp \
+	src/qt/coincontroltreewidget.cpp \
+	src/qt/addressbookpage.cpp \
+	src/qt/signverifymessagedialog.cpp \
+	src/qt/aboutdialog.cpp \
+	src/qt/editaddressdialog.cpp \
+	src/qt/bitcoinaddressvalidator.cpp \
+    src/qt/statisticspage.cpp \
+	src/alert.cpp \
+	src/version.cpp \
+	src/sync.cpp \
+	src/util.cpp \
+	src/netbase.cpp \
+	src/key.cpp \
+	src/script.cpp \
+	src/main.cpp \
+	src/miner.cpp \
+	src/init.cpp \
+	src/net.cpp \
+	src/irc.cpp \
+	src/checkpoints.cpp \
+	src/addrman.cpp \
+	src/db.cpp \
+	src/walletdb.cpp \
+	src/qt/clientmodel.cpp \
+	src/qt/guiutil.cpp \
+	src/qt/transactionrecord.cpp \
+	src/qt/optionsmodel.cpp \
+	src/qt/monitoreddatamapper.cpp \
+	src/qt/transactiondesc.cpp \
+	src/qt/transactiondescdialog.cpp \
+	src/qt/bitcoinstrings.cpp \
+	src/qt/bitcoinamountfield.cpp \
+	src/wallet.cpp \
+	src/keystore.cpp \
+	src/qt/transactionfilterproxy.cpp \
+	src/qt/transactionview.cpp \
+	src/qt/walletmodel.cpp \
+	src/bitcoinrpc.cpp \
+	src/rpcdump.cpp \
+	src/rpcnet.cpp \
+	src/rpcmining.cpp \
+	src/rpcwallet.cpp \
+	src/rpcblockchain.cpp \
+	src/rpcrawtransaction.cpp \
+	src/qt/overviewpage.cpp \
+	src/qt/csvmodelwriter.cpp \
+	src/crypter.cpp \
+	src/qt/sendcoinsentry.cpp \
+	src/qt/qvalidatedlineedit.cpp \
+	src/qt/bitcoinunits.cpp \
+	src/qt/qvaluecombobox.cpp \
+	src/qt/askpassphrasedialog.cpp \
+	src/protocol.cpp \
+	src/qt/notificator.cpp \
+	src/qt/qtipcserver.cpp \
+	src/qt/rpcconsole.cpp \
+	src/noui.cpp \
+	src/kernel.cpp \
+	src/scrypt-arm.S \
+	src/scrypt-x86.S \
+	src/scrypt-x86_64.S \
+	src/scrypt.cpp \
+	src/pbkdf2.cpp \
+	src/txdb-leveldb.cpp \
+	src/bloom.cpp \
+	src/hash.cpp 
 
 RESOURCES += \
     src/qt/bitcoin.qrc
@@ -498,7 +390,7 @@ FORMS += \
     src/qt/forms/askpassphrasedialog.ui \
     src/qt/forms/rpcconsole.ui \
     src/qt/forms/optionsdialog.ui \
-    src/qt/plugins/mrichtexteditor/mrichtextedit.ui
+    src/qt/forms/statisticspage.ui
 
 contains(USE_QRCODE, 1) {
 HEADERS += src/qt/qrcodedialog.h
@@ -545,7 +437,7 @@ isEmpty(BOOST_THREAD_LIB_SUFFIX) {
 }
 
 isEmpty(BDB_LIB_PATH) {
-    macx:BDB_LIB_PATH = /opt/local/lib/db48
+    macx:BDB_LIB_PATH = /usr/local/Cellar/berkeley-db4/4.8.30/lib
 }
 
 isEmpty(BDB_LIB_SUFFIX) {
@@ -553,23 +445,23 @@ isEmpty(BDB_LIB_SUFFIX) {
 }
 
 isEmpty(BDB_INCLUDE_PATH) {
-    macx:BDB_INCLUDE_PATH = /opt/local/include/db48
+    macx:BDB_INCLUDE_PATH = /usr/local/Cellar/berkeley-db4/4.8.30/include
 }
 
 isEmpty(BOOST_LIB_PATH) {
-    macx:BOOST_LIB_PATH = /opt/local/lib
+    macx:BOOST_LIB_PATH = /usr/local/lib
 }
 
 isEmpty(BOOST_INCLUDE_PATH) {
-    macx:BOOST_INCLUDE_PATH = /opt/local/include
+    macx:BOOST_INCLUDE_PATH = /usr/local/include
 }
 
 isEmpty(QRENCODE_LIB_PATH) {
-    macx:QRENCODE_LIB_PATH = /opt/local/lib
+    macx:QRENCODE_LIB_PATH = /usr/local/lib
 }
 
 isEmpty(QRENCODE_INCLUDE_PATH) {
-    macx:QRENCODE_INCLUDE_PATH = /opt/local/include
+    macx:QRENCODE_INCLUDE_PATH = /usr/local/include
 }
 
 windows:DEFINES += WIN32
@@ -595,18 +487,16 @@ macx:HEADERS += src/qt/macdockiconhandler.h src/qt/macnotificationhandler.h
 macx:OBJECTIVE_SOURCES += src/qt/macdockiconhandler.mm src/qt/macnotificationhandler.mm
 macx:LIBS += -framework Foundation -framework ApplicationServices -framework AppKit -framework CoreServices
 macx:DEFINES += MAC_OSX MSG_NOSIGNAL=0
-macx:ICON = src/qt/res/icons/bitcoin.icns
-macx:TARGET = $$FN1$$FN2
+macx:ICON = src/qt/res/icons/ascension.icns
+macx:TARGET = "ascension-Qt"
 macx:QMAKE_CFLAGS_THREAD += -pthread
 macx:QMAKE_LFLAGS_THREAD += -pthread
 macx:QMAKE_CXXFLAGS_THREAD += -pthread
 
 # Set libraries and includes at end, to use platform-defined defaults if not overridden
-INCLUDEPATH += $$BOOST_INCLUDE_PATH $$BDB_INCLUDE_PATH $$OPENSSL_INCLUDE_PATH $$QRENCODE_INCLUDE_PATH $$LIBEVENT_INCLUDE_PATH
-LIBS += $$join(BOOST_LIB_PATH,,-L,) $$join(BDB_LIB_PATH,,-L,) $$join(OPENSSL_LIB_PATH,,-L,) $$join(QRENCODE_LIB_PATH,,-L,) $$join(LIBEVENT_LIB_PATH,,-L,)
+INCLUDEPATH += $$BOOST_INCLUDE_PATH $$BDB_INCLUDE_PATH $$OPENSSL_INCLUDE_PATH $$QRENCODE_INCLUDE_PATH
+LIBS += $$join(BOOST_LIB_PATH,,-L,) $$join(BDB_LIB_PATH,,-L,) $$join(OPENSSL_LIB_PATH,,-L,) $$join(QRENCODE_LIB_PATH,,-L,)
 LIBS += -lssl -lcrypto -ldb_cxx$$BDB_LIB_SUFFIX
-LIBS += -levent -lz
-
 # -lgdi32 has to happen after -lcrypto (see  #681)
 windows:LIBS += -lws2_32 -lshlwapi -lmswsock -lole32 -loleaut32 -luuid -lgdi32
 LIBS += -lboost_system$$BOOST_LIB_SUFFIX \
@@ -615,7 +505,6 @@ LIBS += -lboost_system$$BOOST_LIB_SUFFIX \
     -lboost_thread$$BOOST_THREAD_LIB_SUFFIX \
     -lboost_date_time$$BOOST_THREAD_LIB_SUFFIX \
     -lboost_chrono$$BOOST_LIB_SUFFIX
-
 
 contains(RELEASE, 1) {
     !windows:!macx {

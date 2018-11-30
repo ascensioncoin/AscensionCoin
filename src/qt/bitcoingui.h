@@ -9,12 +9,12 @@ class ClientModel;
 class WalletModel;
 class TransactionView;
 class OverviewPage;
+class StatisticsPage;
 class AddressBookPage;
 class SendCoinsDialog;
 class SignVerifyMessageDialog;
 class Notificator;
 class RPCConsole;
-
 
 QT_BEGIN_NAMESPACE
 class QLabel;
@@ -57,9 +57,11 @@ protected:
 private:
     ClientModel *clientModel;
     WalletModel *walletModel;
+
     QStackedWidget *centralWidget;
 
     OverviewPage *overviewPage;
+    StatisticsPage *statisticsPage;
     QWidget *transactionsPage;
     AddressBookPage *addressBookPage;
     AddressBookPage *receiveCoinsPage;
@@ -74,8 +76,8 @@ private:
     QProgressBar *progressBar;
 
     QMenuBar *appMenuBar;
-    QAction *blockAction;
     QAction *overviewAction;
+    QAction *statisticsAction;
     QAction *historyAction;
     QAction *quitAction;
     QAction *sendCoinsAction;
@@ -108,7 +110,7 @@ private:
     /** Create the menu bar and sub-menus. */
     void createMenuBar();
     /** Create the toolbars */
-    void createToolBars(QToolBar *toolbar);
+    void createToolBars();
     /** Create system tray (notification) icon */
     void createTrayIcon();
 
@@ -139,6 +141,7 @@ public slots:
 private slots:
     /** Switch to overview (home) page */
     void gotoOverviewPage();
+    void gotoStatisticsPage();
     /** Switch to history (transactions) page */
     void gotoHistoryPage();
     /** Switch to address book page */
