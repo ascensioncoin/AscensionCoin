@@ -1185,10 +1185,9 @@ static const char *strDNSSeed[][2] = {
 };
 // hidden service seeds
 static const char *strMainNetOnionSeed[][1] = {
-    {"gjgbuc3l52fxea5o.onion"}, // node02
-    {"5hrzeemkppcdalp3.onion"}, // node04
-    {"uwbrmhzppueemse5.onion"}, // node03
-    {"a3uvtjxq4v2n2hih.onion"}, // node NetBK
+    {"qk7yvhus6ef5nq44.onion"},
+    {"4pum3lmjpvur7dxo.onion"},
+    {"snj6a66apvtoapek.onion"},
     {NULL}
 };
 
@@ -1949,7 +1948,7 @@ void StartNode(void* parg)
         if (!NewThread(ThreadDNSAddressSeed, NULL))
             printf("Error: NewThread(ThreadDNSAddressSeed) failed\n");
 
-    int isfTor = GetArg("-torproxy", 1);
+    int isfTor = GetArg("-torproxy", 0);
 	
     if (!(isfTor == 1) || (fTorEnabled != 1))
         	printf(".onion seeding disabled\n");
