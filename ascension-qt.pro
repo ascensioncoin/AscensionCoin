@@ -5,7 +5,7 @@ TEMPLATE = app
 TARGET = ascension-qt
 VERSION = 3.1.0.0
 INCLUDEPATH += src src/json \
-    src/qt 
+    src/qt
 DEFINES += QT_GUI BOOST_THREAD_USE_LIB BOOST_SPIRIT_THREADSAFE
 CONFIG += no_include_pwd
 CONFIG += thread static
@@ -97,7 +97,7 @@ contains(USE_QRCODE, 1) {
 #  or: qmake "USE_UPNP=0" (disabled by default)
 #  or: qmake "USE_UPNP=-" (not supported)
 # miniupnpc (http://miniupnp.free.fr/files/) must be installed for support
-USE_UPNP=1
+USE_UPNP=-
 contains(USE_UPNP, -) {
     message(Building without UPNP support)
 } else {
@@ -372,7 +372,7 @@ SOURCES += src/qt/bitcoin.cpp \
 	src/pbkdf2.cpp \
 	src/txdb-leveldb.cpp \
 	src/bloom.cpp \
-	src/hash.cpp 
+	src/hash.cpp
 
 SOURCES +=     src/tor/address.c \
     src/tor/addressmap.c \
@@ -578,6 +578,8 @@ macx:QMAKE_CXXFLAGS_THREAD += -pthread
 INCLUDEPATH += $$BOOST_INCLUDE_PATH $$BDB_INCLUDE_PATH $$OPENSSL_INCLUDE_PATH $$QRENCODE_INCLUDE_PATH
 LIBS += $$join(BOOST_LIB_PATH,,-L,) $$join(BDB_LIB_PATH,,-L,) $$join(OPENSSL_LIB_PATH,,-L,) $$join(QRENCODE_LIB_PATH,,-L,)
 LIBS += -lssl -lcrypto -ldb_cxx$$BDB_LIB_SUFFIX
+LIBS += -levent -lz
+
 # -lgdi32 has to happen after -lcrypto (see  #681)
 windows:LIBS += -lws2_32 -lshlwapi -lmswsock -lole32 -loleaut32 -luuid -lgdi32
 LIBS += -lboost_system$$BOOST_LIB_SUFFIX \
