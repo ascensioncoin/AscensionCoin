@@ -60,7 +60,7 @@ Mac OS X
 ::
 
 	sudo port selfupdate
-	sudo port install boost db48 miniupnpc
+	sudo port install boost db48 miniupnpc libevent
 
 - Open the .pro file in Qt Creator and build as normal (cmd-B)
 
